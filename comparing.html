@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+  <meta charset="utf-8" />
+  <title>Cryptococktails</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta property="og:title" content="Cryptococktails" />
+  <meta property="og:description" content="Buy and sell your favorite Cocktails" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://cryptococktails.io" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="" />
+  <meta name="description" content="Buy and sell your favorite Cocktails">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+          $.getJSON( "cocktails_dataset_ignore_license.json", function( data ) {
+          $.each( data, function( key, val ) {
+            var category = val['category'].replace("/", "");
+            var category = category.replace("&", "");
+            var category = category.replace(" ", "");
+            var html = ""
+            html += '<h1>'+val['cocktail_id']+'. '+val["name"]+' ('+category+')</h1>'
+            html += '<img src="'+val['cocktail_id']+'.png" class="img_cocktail" style="border: none;" width="200px">'
+            html += '<img src="'+val['image_url']+'" class="img_cocktail" style="border: none;" width="200px"></br></br>'
+            $("#grid").append(html);
+          });
+        });
+    });
+</script>
+
+</head>
+<span id="grid"></span>
+
+</body>
+</html>

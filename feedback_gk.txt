@@ -1,0 +1,24 @@
+Design Objectives:
+- Screen Shared between patient and provider
+- Sequential
+- Textboxes from stanford not changed
+- level 2 goals target outcome
+- use word goals to describe goals
+
+
+
+##########################################################################################
+
+- awkward to click more ideas (maybe scrollable?)
+
+- question text above all goals or above last goal
+- 'new goal' below the goal recommendations (also explain why its needed)
+- "options & possibilities": -> "explore example goals set by other families"
+- click for more (is written below)
+- remove specific examples
+- capital letters
+
+- intention of wish/worry field & add another wish/worry button
+- last "next" btn -> "finish"
+
+- summary before signup

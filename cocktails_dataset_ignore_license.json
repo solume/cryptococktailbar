@@ -1,0 +1,1426 @@
+[
+ {
+   "cocktail_id": 1,
+   "category": "Gin",
+   "name": "Corpse Reviver No. 2",
+   "image_url": "https://farm6.staticflickr.com/5535/14286634385_e701d0df7a_o_d.jpg",
+   "ingredients": ".75 oz. London Dry Gin |.75 oz. Cointreau |.75 oz. Cocchi Americano |.75 oz. Fresh Lemon",
+   "instructions": "Shake/fine strain/absinthe-rinsed coupe/no garnish"
+ },
+ {
+   "cocktail_id": 2,
+   "category": "Gin",
+   "name": "London Maid",
+   "image_url": "http://www.nzherald.co.nz/resizer/h1QfqK9FIpSbDU8LkJ5X9v9tJrc=/620x930/smart/filters:quality(70)/arc-anglerfish-syd-prod-nzme.s3.amazonaws.com/public/QPAUADMSKZCZFLK7E73M3XNEGE",
+   "ingredients": "2 oz. London Dry Gin |.75 oz. Simple Syrup (1:1) |.75 oz. Fresh Lime |6 mint leaves |2 cucumber slices",
+   "instructions": "Shake/fine strain/dbl rocks/cucumber mint garnish"
+ },
+ {
+   "cocktail_id": 3,
+   "category": "Gin",
+   "name": "White Lady",
+   "image_url": "http://www.1001cocktails.com/images/white-lady-289.jpg",
+   "ingredients": "2 oz. London Dry Gin |.75 oz. Cointreau |.75 oz. Fresh Lemon |Barspoon. Simple Syrup (1:1) |1 Egg White",
+   "instructions": "Dry shake/shake/fine strain/coupe/lemon twist expressed & discarded"
+ },
+ {
+   "cocktail_id": 4,
+   "category": "Gin",
+   "name": "Hanky Panky",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Hanky_Panky_cocktail.jpg",
+   "ingredients": "1.5 oz. London Dry Gin |1.5 oz. Italian Rosso Vermouth |.25 oz. Fernet",
+   "instructions": "Stir/strain/coupe/orange twist"
+ },
+ {
+   "cocktail_id": 5,
+   "category": "Gin",
+   "name": "Rolls Royce",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Sidecar-cocktail.jpg",
+   "ingredients": "2 oz. London Dry Gin |.5 oz. Italian Rosso Vermouth |.5 oz. French Dry Vermouth |.25 oz. Benedictine",
+   "instructions": "Stir/strain/coupe/lemon twist"
+ },
+ {
+   "cocktail_id": 6,
+   "category": "Gin",
+   "name": "Tuxedo No. 2",
+   "image_url": "https://static.vinepair.com/wp-content/uploads/2016/03/tuxedo-2-social.jpg",
+   "ingredients": "2 oz. London Dry Gin |.75 oz. French Dry Vermouth |.25 oz. Maraschino Liqueur |2 dashes orange bitters",
+   "instructions": "Stir/strain/absinthe-rinsed coupe/lemon twist"
+ },
+ {
+   "cocktail_id": 7,
+   "category": "Vodka",
+   "name": "Poet's Dream (Vodka Version)",
+   "image_url": "http://smallscreennetwork.com/videos/cocktail_spirit/cocktail_spirit_poets_dream.jpg",
+   "ingredients": "2 oz. Vodka |.75 oz. French Dry Vermouth |Barspoon Benedictine",
+   "instructions": "Stir/strain/coupe/lemon twist"
+ },
+ {
+   "cocktail_id": 8,
+   "category": "Vodka",
+   "name": "Vesper Martini",
+   "image_url": "http://az659704.vo.msecnd.net/v1/image/c_lpad,w_1500,h_1500/v1400600953/cocktail_vesper-1.png",
+   "ingredients": "2 oz. London Dry Gin |.75 oz. Vodka |.5 oz. Cocchi Americano |1 dash Orange Bitters",
+   "instructions": "Stir/strain/coupe/lemon twist"
+ },
+ {
+   "cocktail_id": 9,
+   "category": "Vodka",
+   "name": "Vodka Martini",
+   "image_url": "https://www.cocktail-db.com/stat/img/300/VodkaMartini.jpg",
+   "ingredients": "3 oz. Vodka |.5 oz. French Dry Vermouth |Never bitters",
+   "instructions": "Stir/strain/coupe/olives or twist"
+ },
+ {
+   "cocktail_id": 10,
+   "category": "Vodka",
+   "name": "Apple Martini",
+   "image_url": "https://mmac-geckowebdevelopm1.netdna-ssl.com/images/cocktails/7385/sourapplemartini.jpg",
+   "ingredients": "1.5 oz. Vodka |1.5 oz. Fresh-pressed Apple Juice |.5 oz. Honey Syrup (2:1) |.5 oz. Fresh Lemon |Barspoon Cinnamon Syrup",
+   "instructions": "Shake/Fine strain/Coupe/Apple slices"
+ },
+ {
+   "cocktail_id": 11,
+   "category": "Vodka",
+   "name": "Cosmopolitan",
+   "image_url": "http://www.1001cocktails.com/images/cosmopolitan.jpg",
+   "ingredients": "1.5 oz. Vodka |.75 oz. Triple Sec |.75 oz. Cranberry |.5 oz. Fresh Lime",
+   "instructions": "Shake/Fine strain/Coupe/Lemon twist"
+ },
+ {
+   "cocktail_id": 12,
+   "category": "Vodka",
+   "name": "Espresso Martini",
+   "image_url": "http://shake-that.com/wp-content/uploads/2015/07/Espresso-martini-780x1065.jpg",
+   "ingredients": "2 oz. Vodka |.75 oz. Chilled Espresso |.5 oz. Kahlua |Barspoon Crème de Cacao",
+   "instructions": "Shake/Fine strain/Coupe/3 espresso beans"
+ },
+ {
+   "cocktail_id": 13,
+   "category": "Tequila/mezcal",
+   "name": "El Diablo",
+   "image_url": "http://www.1001cocktails.com/images/eldiablo.jpg",
+   "ingredients": "1.5 oz. Blanco Teqiula |.75 oz. Fresh Lime Juice |.25 oz. Ginger Syrup |.25 oz. Crème de Cassis",
+   "instructions": "Shake/strain/Collins glass with ice/top with ginger beer/lime wedge"
+ },
+ {
+   "cocktail_id": 14,
+   "category": "Tequila/mezcal",
+   "name": "Infante",
+   "image_url": "https://cocktailpartyapp.com/wp-content/uploads/Harvest-Moon.png",
+   "ingredients": "2 oz. Blanco Tequila |1 oz. Fresh Lime Juice |.75 oz. Orgeat |3 dashes Orange Flower Water |(optional muddled strawberries)",
+   "instructions": "Shake/fine strain/rocks glass with pebble ice/mint"
+ },
+ {
+   "cocktail_id": 15,
+   "category": "Tequila/mezcal",
+   "name": "Tommy's Margarita",
+   "image_url": "http://www.1001cocktails.com/images/tommy.jpg",
+   "ingredients": "2 oz. Blanco Tequila |1 oz. Fresh Lime Juice |>.5 oz. Agave Syrup",
+   "instructions": "Shake/fine strain/rocks glass with ice/no garnish"
+ },
+ {
+   "cocktail_id": 16,
+   "category": "Tequila/mezcal",
+   "name": "Augie March",
+   "image_url": "https://chembococktails.files.wordpress.com/2017/06/screen-shot-2017-06-27-at-21-21-46.png?w=280&h=280&crop=1",
+   "ingredients": "2 oz. Reposado Tequila |.75 oz. Italian Rosso Vermouth |.5 oz. Cynar",
+   "instructions": "Stir/strain/rocks glass with large rock/cherry garnish on a pick"
+ },
+ {
+   "cocktail_id": 17,
+   "category": "Tequila/mezcal",
+   "name": "Oaxacan Old Fashioned",
+   "image_url": "http://hespokestyle.com/wp-content/uploads/2014/05/hss-windows-oaxacan.jpg",
+   "ingredients": "1.5 oz. Reposado Tequila |.5 oz. Mezcal |Barspoon. Agave Syrup |2 dashes Angostura Bitters",
+   "instructions": "Short stir/strain/rocks glass with large rock/flamed orange twist"
+ },
+ {
+   "cocktail_id": 18,
+   "category": "Tequila/mezcal",
+   "name": "Rosita",
+   "image_url": "https://farm9.staticflickr.com/8728/16804953320_069da35699_o.jpg",
+   "ingredients": "1.5 oz. Reposado Tequila |.5 oz. Italian Rosso Vermouth |.5 oz. French Dry Vermouth |.5 oz. Campari |1 dash Angostura bitters",
+   "instructions": "Stir/strain/Coupe/orange twist"
+ },
+ {
+   "cocktail_id": 19,
+   "category": "American whiskey",
+   "name": "Gold Rush",
+   "image_url": "https://assets.bonappetit.com/photos/57acc05e53e63daf11a4d9ad/16:9/w_2056,c_limit/gold-rush.jpg",
+   "ingredients": "2 oz. Bourbon |.75 oz. Fresh Lemon |.75 oz. Honey Syrup (2:1)",
+   "instructions": "Shake/Fine strain/Large rock"
+ },
+ {
+   "cocktail_id": 20,
+   "category": "American whiskey",
+   "name": "Kentucky Buck",
+   "image_url": "https://www.saveur.com/sites/saveur.com/files/styles/655_1x_/public/custom-touts/2015/10/kentucky_buck_2000x1500.jpg?itok=Kzk3YEV5",
+   "ingredients": "2 oz. Bourbon |.75 oz. Fresh Lemon |.5 oz. Simple Syrup (1:1) |2 dashes Angostura |1 strawberry (muddled)",
+   "instructions": "Shake/Fine strain/Collins with ice/Top with ginger beer/Lemon wheel"
+ },
+ {
+   "cocktail_id": 21,
+   "category": "American whiskey",
+   "name": "Paper Plane",
+   "image_url": "https://www.flairprojectsb.com/wp-content/uploads/2014/01/paper-plane-cocktail-recipe.jpg",
+   "ingredients": ".75 oz. Bourbon |.75 oz. Aperol |.75 oz. Amaro Nonino |.75 oz. Lemon",
+   "instructions": "Shake/Fine strain/Coupe/No garnish"
+ },
+ {
+   "cocktail_id": 22,
+   "category": "American whiskey",
+   "name": "Fancy Free",
+   "image_url": "http://www.diy-cocktails.com/wp-content/uploads/2014/08/fancyfree.jpg",
+   "ingredients": "2.25 oz. Bourbon |.5 oz. Maraschino |2 dashes Angostura |1 dash Orange bitters",
+   "instructions": "Short stir/Large rock/Orange twist"
+ },
+ {
+   "cocktail_id": 23,
+   "category": "American whiskey",
+   "name": "Grandfather",
+   "image_url": "http://farm8.staticflickr.com/7067/6836535400_95cc86f2d2.jpg",
+   "ingredients": "1 oz. Bourbon |1 oz. Bonded Apple Brandy |1 oz. Italian Rosso Vermouth |2 dashes Peychaud's Bitters |2 dashes Angostura Bitters",
+   "instructions": "Stir/Strain/Coupe"
+ },
+ {
+   "cocktail_id": 24,
+   "category": "American whiskey",
+   "name": "Preakness Cocktail",
+   "image_url": "http://www.announcingit.com/invitations-blog/wp-content/uploads/2012/04/The-Preakness-Cocktail-Drink-of-the-Preakness-Stake-Race.jpg",
+   "ingredients": "1.75 oz. Overproof Bourbon |.75 oz. Italian Rosso Vermouth |.25 oz. Benedictine |1 dash Aromatic Bitters",
+   "instructions": "Stir/Strain up/Coupe/Orange twist"
+ },
+ {
+   "cocktail_id": 25,
+   "category": "American whiskey",
+   "name": "New York Sour",
+   "image_url": "http://www.1001cocktails.com/images/new-york-sour-5750.jpg",
+   "ingredients": "2 oz. Rye |.75 oz. Fresh Lemon |.75 oz. Simple Syrup (1:1) |1 Egg White |.5 oz. Pinot Noir or comparable wine",
+   "instructions": "Dry shake everything but wine/Shake with ice/Fine train/Rocks glass/Large ice/Carefully float the wine over the top of the drink"
+ },
+ {
+   "cocktail_id": 26,
+   "category": "American whiskey",
+   "name": "Ward Eight",
+   "image_url": "http://farm9.staticflickr.com/8210/8152230319_3fa7683795_o.jpg",
+   "ingredients": "2 oz. Rye |.5 oz. Fresh Lemon |.5 oz. Fresh Orange |5 oz. Grenadine",
+   "instructions": "Shake/Fine Strain/Coupe"
+ },
+ {
+   "cocktail_id": 27,
+   "category": "American whiskey",
+   "name": "Whiskey Smash",
+   "image_url": "https://cdn.liquor.com/wp-content/uploads/2013/05/whiskey-smash.jpg",
+   "ingredients": "2 oz. Rye |.75 oz. Simple Syrup (1:1) |.25 oz. Fresh Lemon |3 Lemon wedges |8 mint leaves",
+   "instructions": "Muddle/Shake/Fine Strain/Rocks Glass/Large ice/Mint garnish"
+ },
+ {
+   "cocktail_id": 28,
+   "category": "American whiskey",
+   "name": "American Trilogy",
+   "image_url": "https://assets.punchdrink.com/wp-content/uploads/2013/10/In-Fashion_Thumbnail.jpg",
+   "ingredients": "1 oz. Rye |1 oz. Apple Brandy |Barspoon Demerara Syrup (1:1) |2 dashes Orange Bitters",
+   "instructions": "Build in a large rocks glass/Large ice cube/Stir briefly/Orange and Lemon twists"
+ },
+ {
+   "cocktail_id": 29,
+   "category": "American whiskey",
+   "name": "Old Pal",
+   "image_url": "https://drinkstraightup.files.wordpress.com/2014/04/new-friend.jpg",
+   "ingredients": "2 oz. Rye |.75 oz. Dry Vermouth |.75 oz. Campari",
+   "instructions": "Stir/Strain/Coupe/No garnish"
+ },
+ {
+   "cocktail_id": 30,
+   "category": "American whiskey",
+   "name": "Red Hook",
+   "image_url": "https://cdn.liquor.com/wp-content/uploads/2010/11/15155044/red-hook1.jpg",
+   "ingredients": "2 oz. Rye |.5 oz. Punt e Mes |.25 oz. Maraschino Liqueur",
+   "instructions": "Stir/Strain/Coupe/No garnish"
+ },
+ {
+   "cocktail_id": 31,
+   "category": "American whiskey",
+   "name": "Castle to Castle",
+   "image_url": "http://www.beautifulbooze.com/blog_img/posts_gallery/440/orig_optimized-bb0_0148.jpg",
+   "ingredients": "1.5 oz. Irish Whiskey |1.5 oz. Fresh-pressed Apple Juice |.75 oz. Fresh Lemon |.5 oz. Honey Syrup (2:1)",
+   "instructions": "Shake/Fine strain/Collins glass with ice/Basil sprig garnish"
+ },
+ {
+   "cocktail_id": 32,
+   "category": "American whiskey",
+   "name": "Irish Breakfast",
+   "image_url": "https://s-media-cache-ak0.pinimg.com/736x/b2/73/63/b27363975efa8a9381fc49d21accc049.jpg",
+   "ingredients": "1.75 oz. Irish Whiskey |.5 oz. Fresh Lemon |.5 oz. Cointreau |Barspoon Orange Marmalade",
+   "instructions": "Stir ingredients to dissolve marmalade/Shake/Fine strain/Coupe/Orange twist"
+ },
+ {
+   "cocktail_id": 33,
+   "category": "American whiskey",
+   "name": "Wild Eyed Rose",
+   "image_url": "http://beveragebusiness.com/wp-content/uploads/2014/08/endangered-cocktail-of-the-month--the-wildeyed-rose-ECOTM_23-390x242.jpg",
+   "ingredients": "2 oz. Irish Whiskey |.75 oz. Grenadine |.5 oz. Fresh Lemon |.5 oz. Fresh Lime",
+   "instructions": "Shake/Fine strain/Coupe/Lime wheel"
+ },
+ {
+   "cocktail_id": 34,
+   "category": "American whiskey",
+   "name": "Blackthorn",
+   "image_url": "https://c1.staticflickr.com/1/689/33132636066_cce43f1a94_o.jpg",
+   "ingredients": "2.5 oz. Irish Whiskey |.5 oz. Noilly Prat Dry Vermouth |.25 oz. Demerara Syrup (1:1) |3 dashes Angostura Bitters",
+   "instructions": "Stir/Strain/Absinthe-rinsed large rocks glass/Large ice/Lemon expressed and discarded"
+ },
+ {
+   "cocktail_id": 35,
+   "category": "American whiskey",
+   "name": "Improved Whiskey Cocktail",
+   "image_url": "http://hespokestyle.com/wp-content/uploads/2016/06/improved-whiskey-cocktail-in-etched-cut-rocks-glass-with-large-ice-cube.jpg",
+   "ingredients": "2 oz. Irish Whiskey |.25 oz. Demerara Syrup (1:1) |Barspoon Maraschino Liqueur |2 Dashes Orange Bitters |2 Dashes Absinthe",
+   "instructions": "Build in large rocks glass/Large ice/Short stir/Lemon and Orange twists"
+ },
+ {
+   "cocktail_id": 36,
+   "category": "American whiskey",
+   "name": "Tipperary Cocktail",
+   "image_url": "https://cdn.liquor.com/wp-content/uploads/2015/03/Tipperary.jpg",
+   "ingredients": "1.5 oz. Irish Whiskey |1.5 oz. Italian Rosso Vermouth |.25 oz. Green Chartreuse |1 dash Angostura Bitters |1 dash Aromatic Bitters |1 dash Absinthe",
+   "instructions": "Stir/Strain/Coupe/Lemon twist"
+ },
+ {
+   "cocktail_id": 37,
+   "category": "Scotch",
+   "name": "Bobby Burns",
+   "image_url": "http://www.1001cocktails.com/images/bobbyburns.jpg",
+   "ingredients": "2 oz. Blended Malt Whiskey |.75 oz. Punt e Mes |.25 oz. Benedictine",
+   "instructions": "Stir/Strain/Coupe/Lemon twist"
+ },
+ {
+   "cocktail_id": 38,
+   "category": "Scotch",
+   "name": "Prince Edward",
+   "image_url": "https://cdn.liquor.com/wp-content/uploads/2017/05/18110717/BadHunter_Aberlour-720x720.jpg",
+   "ingredients": "2 oz. Blended Malt Whiskey |.75 oz. Lillet Blanc |.5 oz. Drambuie |2 dashes Orange Bitters",
+   "instructions": "Stir/Strain/Coupe/Orange twist"
+ },
+ {
+   "cocktail_id": 39,
+   "category": "Scotch",
+   "name": "Tattletale",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/hDNgbUQ4P0E9wbuJUVZw4Q/348s.jpg",
+   "ingredients": "1.25 oz. Highland Scotch Whiskey |.75 oz. Islay Scotch Whiskey |Barspoon Honey Syrup (2:1) |3 dashes Angostura Bitters",
+   "instructions": "Built in large rocks glass/Large ice/Short stir/Orange and lemon twists"
+ },
+ {
+   "cocktail_id": 40,
+   "category": "Scotch",
+   "name": "Mamie Taylor",
+   "image_url": "https://cdn.liquor.com/wp-content/uploads/2016/06/30091937/mamie-taylor-720x720-recipe.jpg",
+   "ingredients": "2 oz. Blended Scotch Whiskey |.75 oz. Fresh Lime |.5 oz. Ginger Syrup",
+   "instructions": "Shake/Strain/Collins glass/Ice/Top with Ginger Beer/Finish with 4 dashes Angostura bitters over the top/Lime wedge/Straw"
+ },
+ {
+   "cocktail_id": 41,
+   "category": "Scotch",
+   "name": "Morning Glory Fizz",
+   "image_url": "https://assets.punchdrink.com/wp-content/uploads/2014/04/Morning-Glory.jpg",
+   "ingredients": "2 oz. Blended Scotch Whiskey |.75 oz. Fresh Lemon |.75 oz. Simple Syrup (1:1) |1 Egg White",
+   "instructions": "Dry shake/Shake/Fine strain/Absinthe-rinsed fizz glass/1 oz. seltzer/Express lemon peel over the top"
+ },
+ {
+   "cocktail_id": 42,
+   "category": "Scotch",
+   "name": "Penicillin",
+   "image_url": "https://www.thecocktailproject.com/sites/default/files/styles/recipe-slider-img/public/8236_Laphroaig_Penicillin_Beauty_IMG-3018.jpg?itok=wP91e8g3",
+   "ingredients": "2 oz. Blended Scotch Whiskey |.75 oz. Fresh Lemon |.35 oz. Ginger Syrup |.35 oz. 3:1 Honey Syrup (2:1)",
+   "instructions": "Shake/Fine strain/Large rocks glass/Large ice/Float .25 oz. Peated scotch whiskey over the top/NO STRAW"
+ },
+ {
+   "cocktail_id": 43,
+   "category": "Rum",
+   "name": "Chet Baker",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/UhgQN-MUjkIqRvSQE-Qr2A/348s.jpg",
+   "ingredients": "2 oz. Aged Rum (Zacapa 23) |2 Barspoon Italian Rosso Vermouth |1 Barspoon Honey Syrup (2:1) |2 dashes Angostura Bitters",
+   "instructions": "Build in large rocks glass/Large rock/Orange twist"
+ },
+ {
+   "cocktail_id": 44,
+   "category": "Rum",
+   "name": "Dominicana",
+   "image_url": "https://www.epicurus.com/beverages/wp-content/uploads/2013/08/dominicana-cocktail-265x177.jpg",
+   "ingredients": "1.5 oz. Aged Rum |1.5 oz. Kahlua",
+   "instructions": "Stir/Strain/Nick & Nora glass/Hand-whipped cream float/Grated cinnamon"
+ },
+ {
+   "cocktail_id": 45,
+   "category": "Rum",
+   "name": "El Presidente",
+   "image_url": "https://c2.staticflickr.com/6/5331/18861352392_a0bdb84edf_o.jpg",
+   "ingredients": "1.5 oz. White Rum |1.25 oz. French Blanc Vermouth |Barspoon Orange Curacao |.5 Barspoon Grenadine |Stir/Strain/Rocks glass/Large rock/Orange twist",
+   "instructions": ""
+ },
+ {
+   "cocktail_id": 46,
+   "category": "Rum",
+   "name": "Airmail",
+   "image_url": "http://farm4.staticflickr.com/3675/11533174803_747108a02f_o.jpg",
+   "ingredients": "1 oz. White Rum |.5 oz. Fresh Lime |.5 oz. Honey Syrup (2:1)",
+   "instructions": "Shake/Fine strain/Coupe/Top with champagne/Lime wheel"
+ },
+ {
+   "cocktail_id": 47,
+   "category": "Rum",
+   "name": "Daisy de Santiago",
+   "image_url": "http://pasadenanow.com/main/wp-content/uploads/2013/04/1886.daisydesantiago.1.jpg",
+   "ingredients": "2 oz. White Rum |1 oz. Fresh Lime |>.5 oz. Simple Syrup (1:1)",
+   "instructions": "Whip shake with 3 ice cubes/Strain/Wine glass/Fill with cracked ice/Float barspoon of Yellow Chartreuse over the cocktail/Mint/Straw"
+ },
+ {
+   "cocktail_id": 48,
+   "category": "Rum",
+   "name": "Mary Pickford",
+   "image_url": "http://www.1001cocktails.com/images/marypickford.jpg",
+   "ingredients": "1.5 oz. White Rum |1 oz. Fresh Pineapple |.25 oz. Fresh Lime |.25 oz. Maraschino Liqueur |.25 oz. Grenadine",
+   "instructions": "Shake/Fine strain/Coupe with one ice cube/Lime wheel"
+ },
+ {
+   "cocktail_id": 49,
+   "category": "Rum",
+   "name": "Brooklynite",
+   "image_url": "https://media1.popsugar-assets.com/files/thumbor/_XzuV8oFDoCn6M3PAv7eBFD4XUY/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2015/05/21/858/n/37139775/26955368_edit_img_image_16460385_1432236686/i/Brooklynite-Cocktail.png",
+   "ingredients": "2 oz. Aged Jamaican Rum |.75 oz. Fresh Lime |.75 oz. Honey Syrup (2:1) |2 dashes Angostura Bitters",
+   "instructions": "Shake/Fine strain/Coupe/Lime wheel"
+ },
+ {
+   "cocktail_id": 50,
+   "category": "Rum",
+   "name": "Jungle Bird",
+   "image_url": "https://cdn.liquor.com/wp-content/uploads/2016/06/15162416/jungle-bird-720x378-social.jpg",
+   "ingredients": "1 oz. Blackstrap Rum |1 oz. Aged Rum |1 oz. Fresh Pineapple |.75 oz. Campari |.5 oz. Fresh Lime |.5 oz. Simple",
+   "instructions": "Shake/Fine strain/Rocks glass with ice/Pineapple frond"
+ },
+ {
+   "cocktail_id": 51,
+   "category": "Rum",
+   "name": "Royal Bermuda Yacht Club",
+   "image_url": "https://s-media-cache-ak0.pinimg.com/originals/53/2b/21/532b2163c88471edcda4a65597a72bce.jpg",
+   "ingredients": "2 oz. Aged Rum |1 oz. Fresh Lime |.5 oz. Cointreau |.5 oz. Falernum",
+   "instructions": "Shake/Fine strain/Coupe/Grated nutmeg"
+ },
+ {
+   "cocktail_id": 52,
+   "category": "Tiki",
+   "name": "Beachbum",
+   "image_url": "https://cdn.liquor.com/wp-content/uploads/2011/06/01114837/beach-bum.jpg",
+   "ingredients": "1 oz. Aged Rum |1 oz. White Rum |.5 oz. Apricot Liqueur |.5 oz. Orgeat |1 oz. Pineapple |.75 oz. Fresh Lime",
+   "instructions": "Shake/Strain/Double rocks glass/Cracked ice/Orange half- wheel with cherry skewer flag/Straw"
+ },
+ {
+   "cocktail_id": 53,
+   "category": "Tiki",
+   "name": "Fog Cutter",
+   "image_url": "http://us.inshaker.com/uploads/cocktail/promo/801/facebook_Samoan_Fog_Cutter-promo.jpg",
+   "ingredients": "1.5 oz. Banks 5 Island White Rum (or other funky white) |.5 oz. Cognac |.5 oz. London Dry Gin |2 oz. Fresh Orange |.75 oz. Fresh Lemon |.75 oz. Orgeat",
+   "instructions": "Shake/Strain/Collins/Ice/Straw/Float .5 oz. Moscatel Sherry/Lemon wheel"
+ },
+ {
+   "cocktail_id": 54,
+   "category": "Tiki",
+   "name": "Jet Pilot",
+   "image_url": "http://tikiloungetalk.com/wp-content/uploads/2011/06/jet-pilot.jpg",
+   "ingredients": "1 oz. Overproof Jamaican Rum |.75 oz. Aged 151 Rum |.75 oz. Aged Rum |.5 oz. Falernum |.5 oz. Cinnamon Syrup |.5 oz. Fresh Lime |.5 oz. Fresh Grapefruit |Barspoon Absinthe |1 dash Angostura Bitters |Swizzle/Tiki Mug/Fruit/Fire/Straws",
+   "instructions": ""
+ },
+ {
+   "cocktail_id": 55,
+   "category": "Tiki",
+   "name": "Painkiller",
+   "image_url": "http://www.1001cocktails.com/images/painkiller.jpg",
+   "ingredients": "1 oz. Aged 151 Rum |.5 oz. Overproof Aged Jamaican Rum |.5 oz. Aged Jamaican Rum |.75 oz. Coconut Syrup |1.5 oz. Fresh Pineapple |.25 oz. Fresh Orange",
+   "instructions": "Shake with 3 ice cubes/Strain/Snifter/Crushed ice/Grated nutmeg/Orange half-wheel/Cherry/Straws"
+ },
+ {
+   "cocktail_id": 56,
+   "category": "Tiki",
+   "name": "Scorpion",
+   "image_url": "http://www.1001cocktails.com/images/escorpiao.jpg",
+   "ingredients": "1.5 oz. Overproof Jamaican Rum |.75 oz. Cognac |.75 oz. Orgeat |.75 oz. Fresh Orange |.75 oz. Fresh Lime |3 dashes Peychaud's Bitters",
+   "instructions": "Swizzle/Scorpion Bowl (or other mug)/Grated Nutmeg/Orange wheel/Lime wheel/Orchid/Straws"
+ },
+ {
+   "cocktail_id": 57,
+   "category": "Tiki",
+   "name": "Three Dots & A Dash",
+   "image_url": "https://dmford.files.wordpress.com/2015/03/wpid47110-three-dots-20150313-2506.jpg?w=1216",
+   "ingredients": "1.5 oz. St. James XO (or other dry aged agricole) |.5 oz. El Dorado 5 Year (or other aged Guyanese rum) |.5 oz. Honey Syrup (2:1) |.5 oz. Falernum |.5 oz. Fresh Orange |.5 oz. Fresh Lime |.25 oz. Allspice Dram |1 dash Angostura bitters",
+   "instructions": "Swizzle/Tiki mug/Crushed ice/Pineapple wedge/3 cherries/Straws"
+ },
+ {
+   "cocktail_id": 58,
+   "category": "Tiki",
+   "name": "Zombie (1934)",
+   "image_url": "http://www.1001cocktails.com/images/zombie.jpg",
+   "ingredients": "1.5 oz. Aged Jamaican Rum |1.5 oz. Aged Trinidadian Rum |1 oz. Aged Overproof Rum |.75 oz. Fresh Lime |.5 oz. Fresh Grapefruit |.5 oz. Falernum |<.5 oz. Cinnamon Syrup |Barspoon Grenadine |3 dashes Absinthe |2 dashes Angostura bitters",
+   "instructions": "Swizzle/Tiki mug/Pebble ice/Flaming half-lime/Cinnamon stick/Whatever other cool stuff you want."
+ },
+ {
+   "cocktail_id": 59,
+   "category": "Cognac/brandy",
+   "name": "Champs-elysees",
+   "image_url": "http://www.1001cocktails.com/images/champselyses.jpg",
+   "ingredients": "2 oz. Cognac |.75 oz. Fresh Lemon |.5 oz. Yellow Chartreuse |.25 oz. Simple Syrup (1:1) |1 dash Angostura Bitters",
+   "instructions": "Shake/Fine strain/Coupe/No garnish"
+ },
+ {
+   "cocktail_id": 60,
+   "category": "Cognac/brandy",
+   "name": "Coffee Cocktail",
+   "image_url": "https://i.ytimg.com/vi/zNA_BkofUlQ/maxresdefault.jpg",
+   "ingredients": "1.5 oz. Port |1 oz. Cognac |.5 oz. Demerara Syrup (1:1) |1 whole egg",
+   "instructions": "Dry shake/Shake/Fine strain/Small rocks glass/Nutmeg"
+ },
+ {
+   "cocktail_id": 61,
+   "category": "Cognac/brandy",
+   "name": "Georgia Julep",
+   "image_url": "https://vignette.wikia.nocookie.net/cocktails/images/0/0a/Mint_Julep_003.jpg/revision/latest?cb=20140301011033",
+   "ingredients": "2.25 oz. Cognac |.25 oz. Simple Syrup (1:1) |.25 oz. Peach Liqueur |Handful mint",
+   "instructions": "Crush mint in hand/Whip all ingredients with 3 pieces ice/Strain/Julep cup/Crushed ice/Mint sprigs"
+ },
+ {
+   "cocktail_id": 62,
+   "category": "Cognac/brandy",
+   "name": "De La Louisiane",
+   "image_url": "https://www.whisky.fr/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/f/i/finespirits-cocktail-la-louisiane-fond-blanc.jpg",
+   "ingredients": "1 oz. Cognac |1 oz. Rye |.5 oz. Benedictine |2 dashes Peychaud's Bitters |1 dash Angostura Bitters",
+   "instructions": "Short stir/Strain/Rocks glass/Large rock/Lemon twist"
+ },
+ {
+   "cocktail_id": 63,
+   "category": "Cognac/brandy",
+   "name": "Japanese Cocktail",
+   "image_url": "http://cocktaildudes.com/wp-content/uploads/2013/04/KO7A0782.jpg",
+   "ingredients": "2.5 oz. Cognac |.5 oz. Orgeat |3 dashes Angostura Bitters",
+   "instructions": "Stir/Strain/Nick & Nora glass/Lemon twist"
+ },
+ {
+   "cocktail_id": 64,
+   "category": "Cognac/brandy",
+   "name": "Vieux Carre",
+   "image_url": "http://www.1001cocktails.com/images/vieuxcarre.jpg",
+   "ingredients": "1 oz. Cognac |1 oz. Rye |1 oz. Punt e Mes |Barspoon. Benedictine |2 dashes Angostura Bitters |2 dashes Peychaud's Bitters",
+   "instructions": "Stir/Strain/Rocks glass/Large rock/Lemon twist"
+ },
+ {
+   "cocktail_id": 65,
+   "category": "Pisco & apple brandy",
+   "name": "Frantic Atlantic",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/iZIWA1Qsw_GPciwJruyT2g/ls.jpg",
+   "ingredients": "1 oz. Pisco |1 oz. St. Germain |1 oz. Fresh Grapefruit |.5 oz. Fresh Lime",
+   "instructions": "Whip shake/Strain/Large rocks glass/Crushed ice/Mint plouche/Straw"
+ },
+ {
+   "cocktail_id": 66,
+   "category": "Pisco & apple brandy",
+   "name": "Pisco Punch",
+   "image_url": "http://www.diy-cocktails.com/wp-content/uploads/2011/11/piscopunch.jpg",
+   "ingredients": "2 oz. Pisco |.75 oz. Fresh Lime |.75 oz. Pineapple Gomme |.5 oz. Lillet Rouge |2 dashes Angostura Bitters",
+   "instructions": "Shake/Strain/Snifter with cracked ice/Orange twist/Mint/Pineapple wedge"
+ },
+ {
+   "cocktail_id": 67,
+   "category": "Pisco & apple brandy",
+   "name": "Pisco Sour",
+   "image_url": "http://www.1001cocktails.com/images/pisco-sour-2241.jpg",
+   "ingredients": "2 oz. Pisco |.75 oz. Simple Syrup (1:1) |.5 oz. Fresh Lemon |.5 oz. Fresh Lime |1 Egg White",
+   "instructions": "Dry shake/Shake/Fine strain/Coupe/6 drops Chuncho bitters"
+ },
+ {
+   "cocktail_id": 68,
+   "category": "Pisco & apple brandy",
+   "name": "American Trilogy",
+   "image_url": "https://assets.punchdrink.com/wp-content/uploads/2013/10/In-Fashion_Thumbnail.jpg",
+   "ingredients": "1 oz. Rye |1 oz. Apple Brandy |Barspoon Demerara Syrup (1:1) |2 dashes Orange Bitters",
+   "instructions": "Build in a large rocks glass/Large ice cube/Stir briefly/Orange and Lemon twists"
+ },
+ {
+   "cocktail_id": 69,
+   "category": "Pisco & apple brandy",
+   "name": "Grandfather",
+   "image_url": "http://farm8.staticflickr.com/7208/6982652149_5f72a10800.jpg",
+   "ingredients": "1 oz. Bourbon |1 oz. Bonded Apple Brandy |1 oz. Italian Rosso Vermouth |2 dashes Peychaud's Bitters |2 dashes Angostura Bitters",
+   "instructions": "Stir/Strain/Coupe"
+ },
+ {
+   "cocktail_id": 70,
+   "category": "Pisco & apple brandy",
+   "name": "Widow's Kiss",
+   "image_url": "https://www.chowstatic.com/assets/recipe_photos/27975_widows_kiss.jpg",
+   "ingredients": "2 oz. Apple Brandy |.25 oz. Yellow Chartreuse |.25 oz. Benedictine |2 dashes Angostura Bitters",
+   "instructions": "Build in large rocks glass/Large ice/Short stir/No garnish"
+ },
+ {
+   "cocktail_id": 71,
+   "category": "Pisco & apple brandy",
+   "name": "Applejack Rabbit",
+   "image_url": "https://putneyfarm.files.wordpress.com/2012/09/rabbit.jpg",
+   "ingredients": "2 oz. Apple Brandy |.75 oz. Fresh Lemon |.75 oz. Fresh Orange |.5 oz. Maple Syrup",
+   "instructions": "Shake/Fine strain/Coupe/No Garnish"
+ },
+ {
+   "cocktail_id": 72,
+   "category": "Pisco & apple brandy",
+   "name": "Jack Rose",
+   "image_url": "http://www.1001cocktails.com/images/jack-rose-878.jpg",
+   "ingredients": "1 oz. American Apple Brandy |1 oz. Calvados |.75 oz. Grenadine |.5 oz. Fresh Lemon |.5 oz. Fresh Lime",
+   "instructions": "Shake/Fine strain/Coupe/No Garnish"
+ },
+ {
+   "cocktail_id": 73,
+   "category": "Pisco & apple brandy",
+   "name": "Philadelphia Fish House Punch",
+   "image_url": "https://assets.epicurious.com/photos/552d523720ca5d650ed24599/master/pass/230583_fish-house-punch_6x4.jpg",
+   "ingredients": "1 oz. Calvados |1 oz. Aged Jamaican Rum |.75 oz. Fresh Lemon |.25 oz. Peach Liqueur |>.25 oz. Demerara Syrup (1:1) |.25 oz. Fresh Ginger Syrup |1 dash Orange Bitters",
+   "instructions": "Shake/Strain/Rock/Lemon wheel/Grated Cinnamon"
+ },
+ {
+   "cocktail_id": 74,
+   "category": "Sherry",
+   "name": "Adonis",
+   "image_url": "https://cdn.liquor.com/wp-content/uploads/2016/10/11111947/adonis-720x720-recipe.jpg",
+   "ingredients": "1.5 oz. Amontillado Sherry |1.5 oz. Italian Rosso Vermouth |2 dashes Orange Bitters",
+   "instructions": "Stir/Strain/Coupe/Orange twist"
+ },
+ {
+   "cocktail_id": 75,
+   "category": "Sherry",
+   "name": "Bamboo",
+   "image_url": "http://www.1001cocktails.com/images/bamboo.jpg",
+   "ingredients": "1.5 oz. Amontillado Sherry |1.25 oz. Dry Vermouth |Barspoon Demerara Syrup (1:1) |1 dash Angostura Bitters |1 dash Orange Bitters",
+   "instructions": "Stir/Strain/Coupe/Lemon twist"
+ },
+ {
+   "cocktail_id": 76,
+   "category": "Sherry",
+   "name": "Sherry Cobbler",
+   "image_url": "http://www.1001cocktails.com/images/sherrycobbler.jpg",
+   "ingredients": "3 oz. Fino Sherry |.5 oz. Pineapple Gomme |Orange & Lemon Wheel",
+   "instructions": "Shake/Fine strain/Collins glass/Crushed ice/Float Pedro Ximenez sherry over the top/Lemon & orange wheel/Mint/Straw"
+ },
+ {
+   "cocktail_id": 77,
+   "category": "Other",
+   "name": "Airmail",
+   "image_url": "https://www.dishesdelish.com/wp-content/uploads/2016/01/Awesome-Classice-Air-Mail-Cocktail-8.jpg",
+   "ingredients": "1 oz. White Rum |.5 oz. Fresh Lime |.5 oz. Honey Syrup (2:1)",
+   "instructions": "Shake/Fine strain/Coupe/Top with Champagne/Lime wheel"
+ },
+ {
+   "cocktail_id": 78,
+   "category": "Other",
+   "name": "Amaretto Sour",
+   "image_url": "http://www.1001cocktails.com/images/amaretto-sour-224.jpg",
+   "ingredients": "1.5 oz. DiSaronno |.75 oz. Overproof Bourbon |1 oz. Fresh Lemon |Barspoon. Simple Syrup (1:1) |1/2 an egg white",
+   "instructions": "Dry shake/Shake with ice/Fine strain/Rocks glass/Ice cubes/Lemon twist/Cherry"
+ },
+ {
+   "cocktail_id": 79,
+   "category": "Other",
+   "name": "Americano Highball",
+   "image_url": "http://www.in-the-spirit.co.uk/cocktails/images/cocktails/full/11.jpg",
+   "ingredients": "1.5 oz. Italian Rosso Vermouth |1.5 oz. Campari",
+   "instructions": "Build/Collins glass/Ice/Club soda/orange twist expressed and discarded/Orange half-wheel/Straw"
+ },
+ {
+   "cocktail_id": 80,
+   "category": "Other",
+   "name": "Aperol Spritz",
+   "image_url": "http://www.1001cocktails.com/images/aperol-spritz--5612.jpg",
+   "ingredients": "2 oz. Aperol |2 oz. Chilled club soda |2 oz. Champagne",
+   "instructions": "Build in white wine glass filled with cracked ice/Stir gently to combine/Orange half-wheel garnish"
+ },
+ {
+   "cocktail_id": 81,
+   "category": "Other",
+   "name": "Arsenic & Old Lace",
+   "image_url": "https://d2zcsajde7b23y.cloudfront.net/m/9fafa25693561602144cf19ca11bd3ba1df55b25.jpg",
+   "ingredients": "2 oz. London Dry Gin |.75 oz. Dry Vermouth |.25 oz. Crème de Violette",
+   "instructions": "Stir/Strain/Coupe/Absinthe-rinsed coupe/Orange twist"
+ },
+ {
+   "cocktail_id": 82,
+   "category": "Other",
+   "name": "Aviation",
+   "image_url": "http://www.1001cocktails.com/images/aviation2.jpg",
+   "ingredients": "2 oz. Plymouth Gin |.75 oz. Fresh Lemon |.5 oz. Luxardo Maraschino Liqueur |.25 oz. Simple Syrup (1:1)",
+   "instructions": "Shake/Fine strain/Crème de Violette rinsed coupe/Brandied cherry in glass"
+ },
+ {
+   "cocktail_id": 83,
+   "category": "Other",
+   "name": "Bee's Knees",
+   "image_url": "https://www.saveur.com/sites/saveur.com/files/styles/1000_1x_/public/honey-cocktails-bees-knees_2000x1500.jpg?itok=FTLsMda-&fc=50,50",
+   "ingredients": "2 oz. London Dry Gin |.75 oz. Fresh Lemon |.75 oz. Honey Syrup (2:1)",
+   "instructions": "Shake/Fine strain/Coupe/Lemon wheel"
+ },
+ {
+   "cocktail_id": 84,
+   "category": "Other",
+   "name": "Bellini",
+   "image_url": "http://www.1001cocktails.com/images/bellini.jpg",
+   "ingredients": ".4 oz. Crème de Peche |1 oz. Peach Nectar (Kearn's) |Top w/ Champagne",
+   "instructions": ""
+ },
+ {
+   "cocktail_id": 85,
+   "category": "Other",
+   "name": "Bijou",
+   "image_url": "http://www.1001cocktails.com/images/bijou-425.jpg",
+   "ingredients": "1.5 oz. Plymouth Gin |1 oz. Italian Rosso Vermouth |.75 oz. Green Chartreuse |1 dash Orange Bitters",
+   "instructions": "Stir/Strain/Coupe/Lemon twist"
+ },
+ {
+   "cocktail_id": 86,
+   "category": "Other",
+   "name": "Black Russian",
+   "image_url": "http://www.1001cocktails.com/images/black-russian-2.jpg",
+   "ingredients": "2 oz. Vodka |.75 oz. Kahlua",
+   "instructions": "Stir/Rock"
+ },
+ {
+   "cocktail_id": 87,
+   "category": "Other",
+   "name": "Bloody Mary",
+   "image_url": "http://www.1001cocktails.com/images/bloody_mary.jpg",
+   "ingredients": "2 oz. Vodka |<.75 oz. Fresh Lemon |Heavy pinch smoked salt |Heavy pinch ground black pepper |3 dashes hot sauce |5 dashes Worchestershire sauce |5 oz. V8 Tomato Juice",
+   "instructions": "Roll between tins with ice until chilled/Strain/Collins/Ice/Olives on skewer/Lemon wedge/Celery stick"
+ },
+ {
+   "cocktail_id": 88,
+   "category": "Other",
+   "name": "Boulevardier",
+   "image_url": "http://www.1001cocktails.com/images/boulevardier-5847.jpg",
+   "ingredients": "1.5 oz. Bourbon |.75 oz. Campari |.75 oz. Italian Rosso Vermouth",
+   "instructions": "Short stir/Rock/Orange twist"
+ },
+ {
+   "cocktail_id": 89,
+   "category": "Other",
+   "name": "Bramble",
+   "image_url": "http://www.1001cocktails.com/images/horton.jpg",
+   "ingredients": "1.5 oz. Overproof Gin |.75 oz. Fresh Lemon |.5 oz. Simple Syrup (1:1)",
+   "instructions": "Gently crush 5 blackberries in bottom of large rocks glass and add some crushed ice on top/Whip shake cocktail/Strain into prepped glass/Top with crushed ice/Lemon wheel/Float .5 oz. Crème de Mure/Straw"
+ },
+ {
+   "cocktail_id": 90,
+   "category": "Other",
+   "name": "Brandy Alexander",
+   "image_url": "http://www.1001cocktails.com/images/braddyalex.jpg",
+   "ingredients": "1 oz. Cognac |1 oz. Dark Crème de Cacao |1 oz. Heavy Cream",
+   "instructions": "Shake/Fine strain/Coupe/Nutmeg"
+ },
+ {
+   "cocktail_id": 91,
+   "category": "Other",
+   "name": "Brooklynite",
+   "image_url": "https://media1.popsugar-assets.com/files/thumbor/_XzuV8oFDoCn6M3PAv7eBFD4XUY/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2015/05/21/858/n/37139775/26955368_edit_img_image_16460385_1432236686/i/Brooklynite-Cocktail.png",
+   "ingredients": "2 oz. Aged Jamaican Rum |.75 oz. Fresh Lime |.75 oz. Honey Syrup (2:1) |2 dashes Angostura Bitters",
+   "instructions": "Shake/Fine strain/Coupe/Lime wheel"
+ },
+ {
+   "cocktail_id": 92,
+   "category": "Other",
+   "name": "Caipirina",
+   "image_url": "http://www.1001cocktails.com/images/caipirinhato.jpg",
+   "ingredients": "2 oz. Cachaca |<.5 oz. Simple Syrup (1:1) |Barspoon Fresh Lime |3 lime wedges",
+   "instructions": "Muddle/Fill tin with ice/Shake/Dump/Serve with straw"
+ },
+ {
+   "cocktail_id": 93,
+   "category": "Other",
+   "name": "Champagne Cocktail",
+   "image_url": "http://www.1001cocktails.com/images/champagnecocktail.jpg",
+   "ingredients": "Sugar cube in a coupe or flute w/ 3 dashes Angostura bitters |Top w/ chilled champagne |Spiraling lemon twist",
+   "instructions": ""
+ },
+ {
+   "cocktail_id": 94,
+   "category": "Other",
+   "name": "Chartreuse Swizzle",
+   "image_url": "https://assets.punchdrink.com/wp-content/uploads/2014/08/Chartreuse-Swizzle.jpg",
+   "ingredients": "1.25 oz. Green Chartreuse |.5 oz. Falernum |1 oz. Fresh Pineapple |.75 oz. Fresh Lime",
+   "instructions": "Build/Collins/Crushed ice/Swizzle/More crushed ice to just below the rim of the glass/Heavily dash a layer of Angostura bitters/Gently agitate the bitters with bar spoon to form a consistent layer/Top with fresh dry crushed ice up over the rim of the glass/Grated nutmeg/Mint sprig/Straw"
+ },
+ {
+   "cocktail_id": 95,
+   "category": "Other",
+   "name": "Chrysanthemum",
+   "image_url": "http://www.thedrinkguy.com/wp-content/uploads/2015/06/Chrysanthemum-Cocktail.jpg",
+   "ingredients": "2 oz. Dry Vermouth |.75 oz. Benedictine |.25 oz. Absinthe",
+   "instructions": "Short stir/Strain/Rock/Orange twist"
+ },
+ {
+   "cocktail_id": 96,
+   "category": "Other",
+   "name": "Clover Club",
+   "image_url": "http://www.1001cocktails.com/images/clover-club-66.jpg",
+   "ingredients": "1.5 oz. London Dry Gin |.5 oz. Dry Vermouth |.5 oz. Fresh Lemon |.5 oz. Simple Syrup (1:1) |5 Raspberries |1/2 and Egg White",
+   "instructions": "Muddle/Dry shake/Shake with ice/Fine strain/Coupe/Skewered raspberries/Lemon twist expressed and discarded"
+ },
+ {
+   "cocktail_id": 97,
+   "category": "Other",
+   "name": "Corn ‘n Oil",
+   "image_url": "http://postprohibition.com/wp-content/uploads/2013/07/corn_oil.jpg",
+   "ingredients": "2 oz. Blackstrap Rum |.25 oz. Falernum |3 Lime Wedges |2 dashes Angostura Bitters",
+   "instructions": "Muddle/Hard shake with ice/Dump into double rocks glass/Serve as is"
+ },
+ {
+   "cocktail_id": 98,
+   "category": "Other",
+   "name": "Daiquiri",
+   "image_url": "http://www.1001cocktails.com/images/daiquirii.jpg",
+   "ingredients": "2 oz. White Rum |<1 oz. Fresh Lime |.75 oz. Simple Syrup (1:1)",
+   "instructions": "Shake/Fine strain/Coupe"
+ },
+ {
+   "cocktail_id": 99,
+   "category": "Other",
+   "name": "East Side",
+   "image_url": "https://cdn.liquor.com/wp-content/uploads/2010/06/FA-East_Side_Elder-Newest.jpg",
+   "ingredients": "2 oz. London Dry Gin |.75 oz. Fresh Lemon |.75 oz. Simple Syrup (1:1) |Handful of fresh mint leaves gently squeezed |2 cucumber slices",
+   "instructions": "Whip shake with 3 ice cubes/Fine strain/Large rocks glass/Crushed ice/Mint sprig/Cucumber slice/Straw"
+ },
+ {
+   "cocktail_id": 100,
+   "category": "Other",
+   "name": "French 75",
+   "image_url": "http://www.1001cocktails.com/images/french75.jpg",
+   "ingredients": "1 oz. London Dry Gin |.5 oz. Fresh Lemon |.5 oz. Simple Syrup (1:1)",
+   "instructions": "Shake/Fine strain into coupe or champagne glass/Top with champagne/Spiraling lemon twist garnish"
+ },
+ {
+   "cocktail_id": 101,
+   "category": "Other",
+   "name": "Gimlet",
+   "image_url": "http://www.1001cocktails.com/images/gimlet5.jpg",
+   "ingredients": "2 oz. London Dry Gin |<1 oz. Fresh Lime |>.5 oz. Simple Syrup (1:1) |2 lime twists",
+   "instructions": "Shake/Fine strain/Lime wedge"
+ },
+ {
+   "cocktail_id": 102,
+   "category": "Other",
+   "name": "Gin Rickey",
+   "image_url": "http://www.1001cocktails.com/images/rickey2.jpg",
+   "ingredients": "1.5 oz. London Dry Gin |.75 oz. Fresh Lime |>.5 oz. Simple Syrup (1:1)",
+   "instructions": "Shake/Strain/Collins/Ice/1 oz. Club soda/Lime wedge/Straw"
+ },
+ {
+   "cocktail_id": 103,
+   "category": "Other",
+   "name": "Godfather/Godmother",
+   "image_url": "http://www.1001cocktails.com/images/god_father.jpg",
+   "ingredients": "2 oz. Blended Scotch (J&B/Famous Grouse) |.5 oz. DiSaronno",
+   "instructions": "Stir/Rock"
+ },
+ {
+   "cocktail_id": 104,
+   "category": "Other",
+   "name": "Grasshopper",
+   "image_url": "http://www.1001cocktails.com/images/grasshopper.jpg",
+   "ingredients": "1 oz. White Crème de Cacao |1 oz. Green Crème de Menthe |1 oz. Heavy Cream |8 Mint Leaves",
+   "instructions": "Shake/Fine strain/Coupe/Mint leaf"
+ },
+ {
+   "cocktail_id": 105,
+   "category": "Other",
+   "name": "Hanky Panky",
+   "image_url": "http://www.1001cocktails.com/images/hanky.jpg",
+   "ingredients": "1.5 oz. London Dry Gin |1.5 oz. Italian Rosso Vermouth |.25 oz. Fernet",
+   "instructions": "Stir/Strain/Coupe/Lemon twist"
+ },
+ {
+   "cocktail_id": 106,
+   "category": "Other",
+   "name": "Hemingway Daiquiri",
+   "image_url": "https://cdn.liquor.com/wp-content/uploads/2013/07/10-Cane-Hemingway-Daiquiri.jpg",
+   "ingredients": "2 oz. White Rum |.75 oz. Fresh Lime |.5 oz. Fresh Grapefruit |.5 oz. Luxardo Maraschino Liqueur |.25 oz. Cane Syrup (2:1) |2 lime twists",
+   "instructions": "Shake/Fine strain/Coupe/Lime wheel"
+ },
+ {
+   "cocktail_id": 107,
+   "category": "Other",
+   "name": "Hot Toddy",
+   "image_url": "http://www.1001cocktails.com/images/hot_toddy.jpg",
+   "ingredients": "2 oz. Bourbon |3.5 oz. Black Tea |.5 oz. Honey Syrup (2:1) |.25 oz. Benedictine |2 dashes Peychauds Bitters",
+   "instructions": "Heat cocktail with espresso wand/Pour into warm coffee cup/Garnish with cinnamon stick and clove-studded lemon wedge"
+ },
+ {
+   "cocktail_id": 108,
+   "category": "Other",
+   "name": "Irish Coffee",
+   "image_url": "http://www.1001cocktails.com/images/recetirishcoffee.jpg",
+   "ingredients": "2.5 oz. Water |2 oz. Irish Whiskey |1 oz. Espresso |<.75 oz. Demerara Syrup (1:1)",
+   "instructions": "Heat with espresso wand/Pour into hot cocktail cup/Top with hand-whipped heavy cream/Grated cinnamon"
+ },
+ {
+   "cocktail_id": 109,
+   "category": "Other",
+   "name": "Japanese Cocktail",
+   "image_url": "http://cocktaildudes.com/wp-content/uploads/2013/04/KO7A0782-400x290.jpg",
+   "ingredients": "2.5 oz. Cognac |.5 oz. Orgeat |3 dashes Angostura Bitters",
+   "instructions": "Stir/Strain/Nick & Nora/Lemon twist expressed and discarded"
+ },
+ {
+   "cocktail_id": 110,
+   "category": "Other",
+   "name": "Kir",
+   "image_url": "http://www.1001cocktails.com/images/kir_imperial.jpg",
+   "ingredients": "<.5 oz. Crème de Cassis |Dry White Wine",
+   "instructions": "White wine glass full of cracked ice/Quick stir to combine/Lemon twist/Straw"
+ },
+ {
+   "cocktail_id": 111,
+   "category": "Other",
+   "name": "Kir Royale",
+   "image_url": "http://www.1001cocktails.com/images/kir-royal-898.jpg",
+   "ingredients": "<.5 oz. Crème de Framboise |Champagne",
+   "instructions": "Coupe or Champagne flute/Garnish with a fresh raspberry/Lemon twist expressed and discarded"
+ },
+ {
+   "cocktail_id": 112,
+   "category": "Other",
+   "name": "Last Word",
+   "image_url": "http://www.1001cocktails.com/images/lastword.jpg",
+   "ingredients": ".75 oz. London Dry Gin |.75 oz. Luxardo Maraschino Liqueur |.75 oz. Green Chartreuse |.75 oz. Fresh Lime",
+   "instructions": "Shake/Fine strain/Nick & Nora"
+ },
+ {
+   "cocktail_id": 113,
+   "category": "Other",
+   "name": "Long Island Iced Tea",
+   "image_url": "http://www.1001cocktails.com/images/long_island_iced_tea2.jpg",
+   "ingredients": ".5 oz. Vodka |.5 oz. Blanco Tequila |.5 oz. White Rum |.5 oz. London Dry Gin |.75 oz. Cointreau |.75 oz. Fresh Lemon",
+   "instructions": "Shake/Strain/Collins/Ice/Top with Coca Cola/Lemon wedge"
+ },
+ {
+   "cocktail_id": 114,
+   "category": "Other",
+   "name": "Mai Tai",
+   "image_url": "http://www.1001cocktails.com/images/maitai6.jpg",
+   "ingredients": "1 oz. Aged Jamaican Rum |1 oz. Agricole Blanc |.5 oz. Orange Curacao (Creole Shrubb is best) |1 oz. Fresh Lime |.75 oz. Orgeat |1 lime twist",
+   "instructions": "Shake with 3 ice cubes/Strain/Large rocks glass/Crushed ice/Orange half wheel fan and lime wheel/Straw"
+ },
+ {
+   "cocktail_id": 115,
+   "category": "Other",
+   "name": "Manhattan",
+   "image_url": "http://www.1001cocktails.com/images/manhattan.jpg",
+   "ingredients": "2.5 oz. Bourbon OR Rye whiskey |1 oz. Italian Rosso Vermouth |3 dashes Angostura Bitters",
+   "instructions": "Stir/Strain/Brandied cherries on cocktail pick"
+ },
+ {
+   "cocktail_id": 116,
+   "category": "Other",
+   "name": "Margarita",
+   "image_url": "http://www.1001cocktails.com/images/margarita2.jpg",
+   "ingredients": "2 oz. Blanco Tequila |.75 oz. Cointreau (Combier is better if you have it) |.75 oz. Fresh Lime |Barspoon Simple Syrup (1:1)",
+   "instructions": "Shake/Fine strain/Lime wedge"
+ },
+ {
+   "cocktail_id": 117,
+   "category": "Other",
+   "name": "Martinez",
+   "image_url": "http://www.1001cocktails.com/images/martinez.jpg",
+   "ingredients": "2 oz. Old Tom Gin |1 oz. Italian Rosso Vermouth |.25 oz. Luxardo Maraschino Liqueur |2 dashes Angostura bitters |1 dash Aromatic bitters",
+   "instructions": "Stir/Strain/Coupe/Lemon twist"
+ },
+ {
+   "cocktail_id": 118,
+   "category": "Other",
+   "name": "Mimosa",
+   "image_url": "http://www.1001cocktails.com/images/mimosa.jpg",
+   "ingredients": "1/2 Champagne |1/2 Orange Juice",
+   "instructions": "Carefully poured into a flute"
+ },
+ {
+   "cocktail_id": 119,
+   "category": "Other",
+   "name": "Mint Julep",
+   "image_url": "http://www.1001cocktails.com/images/mintjulep2.jpg",
+   "ingredients": "2.25 oz. Bourbon |<.5 oz. Demerara Syrup (1:1) |Handful mint",
+   "instructions": "Crush mint in hand/Whip all ingredients with 3 pieces ice/Strain/Julep cup/Crushed ice/Mint sprigs"
+ },
+ {
+   "cocktail_id": 120,
+   "category": "Other",
+   "name": "Mojito",
+   "image_url": "http://www.1001cocktails.com/images/mojito2.jpg",
+   "ingredients": "2 oz. White Rum |<1 oz. Fresh Lime |.75 oz. Simple Syrup (1:1) |2 Lime Twists |Large handful of mint",
+   "instructions": "Gentle Muddle/Whip shake with 2 ice cubes/Dump everything into chilled Collins glass/Top with crushed ice/.5 oz Club soda/Garnish with lime wheel and mint sprig/Straw"
+ },
+ {
+   "cocktail_id": 121,
+   "category": "Other",
+   "name": "Moscow Mule",
+   "image_url": "http://www.1001cocktails.com/images/muscowm.jpg",
+   "ingredients": "2 oz. Vodka (or other base) |<1 oz. Fresh Lime |<.75 oz. Fresh Ginger Syrup |.5 oz. Demerara Syrup (1:1)",
+   "instructions": "Shake with 3 ice cubes/Strain into Collins glass with ice/Top with club soda/3 dashes of Angostura Bitters/Lime wedge/Straw"
+ },
+ {
+   "cocktail_id": 122,
+   "category": "Other",
+   "name": "Negroni",
+   "image_url": "http://www.1001cocktails.com/images/negroni-43.jpg",
+   "ingredients": "1.5 oz. London Dry Gin |1 oz. Italian Rosso Vermouth |<1 oz. Campari",
+   "instructions": "Short stir/Rock/Orange twist"
+ },
+ {
+   "cocktail_id": 123,
+   "category": "Other",
+   "name": "Old Cuban",
+   "image_url": "http://www.1001cocktails.com/images/old-cuban-5805.jpg",
+   "ingredients": "2 oz. Aged Rum |.5 oz. Demerara Syrup (1:1) |.5 oz. Fresh Lime |2 dashes Angostura Bitters |6 Mint Leaves",
+   "instructions": "Shake with 3 ice cubes/Fine strain/Coupe/Champagne/Mint leaf"
+ },
+ {
+   "cocktail_id": 124,
+   "category": "Other",
+   "name": "Old Fashioned",
+   "image_url": "http://www.1001cocktails.com/images/oldfashined2.jpg",
+   "ingredients": "2.5 oz. Bourbon OR Rye |<.5 oz. Demerara Syrup (1:1) |3 dashes Angostura Bitters |.5 dash Aromatic Bitters",
+   "instructions": "Short stir/Large rock/Lemon and Orange twists"
+ },
+ {
+   "cocktail_id": 125,
+   "category": "Other",
+   "name": "Old Maid",
+   "image_url": "https://s-media-cache-ak0.pinimg.com/originals/8a/c4/bc/8ac4bc2d9b7ca9bc519d759d98a90c9f.jpg",
+   "ingredients": "2 oz. London Dry Gin |.75 oz. Fresh Lemon |.75 oz. Simple Syrup (1:1) |Handful of fresh mint leaves gently squeezed |2 cucumber slices",
+   "instructions": "Whip shake with 3 ice cubes/Fine strain/Large rocks glass with cracked ice/Mint sprig/Cucumber slice/Straw"
+ },
+ {
+   "cocktail_id": 126,
+   "category": "Other",
+   "name": "Paloma",
+   "image_url": "https://assets.epicurious.com/photos/54b037f6766062b20344a3ff/master/pass/51140240_paloma_1x1.jpg",
+   "ingredients": "1.5 oz. Blanco Tequila |.5 oz. Mezcal |1 oz. Fresh Grapefruit |.75 oz. Fresh Lime |.5 oz. Agave Syrup",
+   "instructions": "Shake/Strain/Salt-rimmed Collins filled with ice/Straw/Lime wedge"
+ },
+ {
+   "cocktail_id": 127,
+   "category": "Other",
+   "name": "Penicillin",
+   "image_url": "https://s3.us-east-2.amazonaws.com/chrissy-tuxedo-no2/1500x861recipe-penicillin-cocktail-recipe.jpg",
+   "ingredients": "2 oz. Blended Scotch Whiskey |.75 oz. Fresh Lemon |3/8 oz. Fresh Ginger Syrup |3/8 oz. Honey Syrup (2:1)",
+   "instructions": "Shake/Strain/Large Rock/Float .25 oz. Peated Scotch Whiskey over the surface of the drink/Skewered candied ginger/NO STRAW"
+ },
+ {
+   "cocktail_id": 128,
+   "category": "Other",
+   "name": "Pimm's Cup",
+   "image_url": "http://www.1001cocktails.com/images/pummscup.jpg",
+   "ingredients": "2 oz. Pimm's No. 1 |.5 oz. Fresh Lime |.5 oz. Fresh Lemon |>.5 oz. Fresh Ginger Syrup |Orange slice cucumber slice 1/2 a strawberry 6 mint leaves",
+   "instructions": "Muddle/Shake with 3 ice cubes/Fine strain/Collins glass/ice/ginger ale/orange half wheel/mint/straw"
+ },
+ {
+   "cocktail_id": 129,
+   "category": "Other",
+   "name": "Piña Colada",
+   "image_url": "http://www.1001cocktails.com/images/pina-colada-2-4054.jpg",
+   "ingredients": "1 oz. White Rum |1 oz. Dark Rum |1.5 oz. Fresh Pineapple |<1 oz. Coconut Syrup |.25 oz. Heavy Cream |1 dash Angostura bitters",
+   "instructions": "Whip shake with 3 ice cubes/Strain/Snifter/Crushed ice/Orange wheel cherry flag/Grated nutmeg"
+ },
+ {
+   "cocktail_id": 130,
+   "category": "Other",
+   "name": "Pineapple Daiquiri",
+   "image_url": "https://thumbs.dreamstime.com/b/frozen-pineapple-daiquiri-cocktail-splashes-big-splash-isolated-white-background-design-template-sample-text-56575684.jpg",
+   "ingredients": "1 oz. White Rum |1 oz. Aged Agricole |1 oz. Fresh Pineapple |.75 oz. Fresh Lime |<.75 oz. Simple Syrup (1:1)",
+   "instructions": "Shake/Fine strain/Coupe/Stripe of Angostura bitters over the top"
+ },
+ {
+   "cocktail_id": 131,
+   "category": "Other",
+   "name": "Queen's Park Swizzle",
+   "image_url": "http://tikiloungetalk.com/wp-content/uploads/2011/07/queens-park-swizzle.jpg",
+   "ingredients": "2.25 oz. Aged Rum |<1 oz. Fresh lime |.75 oz. Simple Syrup (1:1)",
+   "instructions": "Fill Collins glass loosely with mint leaves/Add all ingredients/Press down with muddler to compact mint leaves into the bottom fifth of the glass/Taste and adjust as needed/Fill glass with ice/Swizzle/Add more ice until just below the rim of the glass/Heavily dash Angostura and Peychaud's bitters to form a dense colored layer/Agitate the top layer gently with barspoon to make the bitters a consistent layer/Add more fresh dry crushed ice up over the rim of the glass/Add straws/Mint plouche"
+ },
+ {
+   "cocktail_id": 132,
+   "category": "Other",
+   "name": "Ramos Gin Fizz",
+   "image_url": "http://www.1001cocktails.com/images/ramos-gin-fizz-5611.jpg",
+   "ingredients": "2 oz. Old Tom Gin |1 oz. Heavy Cream |1 oz. Simple Syrup (1:1) |.5 oz. Fresh Lemon |.5 oz. Fresh Lime |5 drops Orange Flower Water",
+   "instructions": "Dry shake/Shake with 3 ice cubes until they dissolve/Fine strain into a chilled Collins primed with 1.5 oz. chilled club soda/Pop into freezer if there's time to solidify the foam/Add more club soda into cocktail tin to extract the remaining cream/Slowly add on top of cocktail to create attractive head/Straw"
+ },
+ {
+   "cocktail_id": 133,
+   "category": "Other",
+   "name": "Rob Roy",
+   "image_url": "http://www.1001cocktails.com/images/rob-roy-1234.jpg",
+   "ingredients": "2.5 oz. Blended Scotch Whiskey |1 oz. Italian Rosso Vermouth |2 dashes Angostura Bitters",
+   "instructions": "Stir/Strain/Coupe/Brandied cherries on cocktail pick"
+ },
+ {
+   "cocktail_id": 134,
+   "category": "Other",
+   "name": "Rome With A View",
+   "image_url": "https://assets.punchdrink.com/wp-content/uploads/2014/07/Bitter-Tom_thumbnail.jpg",
+   "ingredients": "1 oz. Dry Vermouth |1 oz. Campari |1 oz. Fresh Lime |.75 oz. Simple Syrup (1:1)",
+   "instructions": "Shake/Strain/Collins/Ice/Club soda/Lime wedge/Straw"
+ },
+ {
+   "cocktail_id": 135,
+   "category": "Other",
+   "name": "Rusty Nail",
+   "image_url": "https://fthmb.tqn.com/uZzqrUkG9W2S3P2eAmHCnWlJ-2s=/960x0/filters:no_upscale()/scotch-with-ice-492643909-5893cbfa3df78caebcfaa7ce.jpg",
+   "ingredients": "2 oz. Blended Scotch Whiskey (Johnnie Walker Black) |.5 oz. Drambuie |Stir/Rock/Cinnamon Stick Garnish",
+   "instructions": ""
+ },
+ {
+   "cocktail_id": 136,
+   "category": "Other",
+   "name": "Sazerac",
+   "image_url": "http://www.1001cocktails.com/images/sazerac-3091.jpg",
+   "ingredients": "2 oz. Rye Whiskey |.5 oz. Cognac |<.5 oz. Demerara Syrup (1:1) |3 dashes Peychaud's Bitters |.5 dash Angostura Bitters |Absinthe-rinsed CHILLED small rocks glass",
+   "instructions": "Stir/Strain/Lemon twist expressed and discarded"
+ },
+ {
+   "cocktail_id": 137,
+   "category": "Other",
+   "name": "Sidecar",
+   "image_url": "http://www.1001cocktails.com/images/sidecar2.jpg",
+   "ingredients": "2 oz. Cognac |1 oz. Combier |.75 oz. Fresh Lemon |Barspoon. Simple Syrup (1:1)",
+   "instructions": "Shake/Fine strain/Sugar half-rimmed coupe"
+ },
+ {
+   "cocktail_id": 138,
+   "category": "Other",
+   "name": "Singapore Sling",
+   "image_url": "http://www.1001cocktails.com/images/sigapore.jpg",
+   "ingredients": "1.5 oz. London Dry Gin |.5 oz. Cherry Heering |.25 oz. Benedictine |.25 oz. Cointreau |1.5 oz. Fresh Pineapple |.5 oz. Fresh Lime |Barspoon Grenadine |1 dash Angostura Bitters",
+   "instructions": "Whip shake with 3 ice cubes/Strain/Collins/1 oz. Club soda/Orange half-wheel/Cherry/Pineapple frond/Straw"
+ },
+ {
+   "cocktail_id": 139,
+   "category": "Other",
+   "name": "Southside",
+   "image_url": "https://www.seriouseats.com/recipes/images/20101228southsidefizz.jpg",
+   "ingredients": "2 oz. London Dry Gin |.75 oz. Fresh Lemon |.75 oz. Simple Syrup (1:1) |Handful of fresh mint leaves gently squeezed",
+   "instructions": "Whip shake with 3 ice cubes/Fine strain/Large rocks glass/Crushed ice/Mint sprig/Straw"
+ },
+ {
+   "cocktail_id": 140,
+   "category": "Other",
+   "name": "Southside Fizz",
+   "image_url": "https://assets.absolutdrinks.com/drinks/solid-background-white/soft-shadow/floor-reflection/180x180/south-side-fizz(85).jpg",
+   "ingredients": "1.5 oz. London Dry Gin |.5 oz. Fresh Lemon |.5 oz. Simple Syrup (1:1) |Handful of fresh mint leaves gently squeezed",
+   "instructions": "Whip shake with 3 ice cubes/Fine strain/Collins with small handful of mint leaves in bottom/Ice spear/Top with 1 oz. club soda/Lemon wheel and mint garnish/Straw"
+ },
+ {
+   "cocktail_id": 141,
+   "category": "Other",
+   "name": "Stinger",
+   "image_url": "http://www.1001cocktails.com/images/stinger2.jpg",
+   "ingredients": "2 oz. Cognac |.4 oz. Crème de Menthe |Barspoon. Simple Syrup (1:1)",
+   "instructions": "Whip shake/Strain/Small rocks glass/Crushed ice/Mint sprig/Straw"
+ },
+ {
+   "cocktail_id": 142,
+   "category": "Other",
+   "name": "Ti' Punch",
+   "image_url": "http://www.1001cocktails.com/images/tupunch.jpg",
+   "ingredients": "2 oz. Agricole Blanc |2 barspoons Cane Syrup (2:1) |2 lime heels",
+   "instructions": "Muddle/Taste & adjust with syrup or lime juice/Fill glass 1/2 cube and 1/2 pebble/Swizzle/Serve as is"
+ },
+ {
+   "cocktail_id": 143,
+   "category": "Other",
+   "name": "Tom Collins",
+   "image_url": "http://www.1001cocktails.com/images/tom-collins-292.jpg",
+   "ingredients": "1.5 oz. London Dry Gin |.5 oz. Fresh Lemon |.5 oz. Simple Syrup (1:1)",
+   "instructions": "Shake/Strain/Collins/Ice/Club soda/Lemon wedge/Straw"
+ },
+ {
+   "cocktail_id": 144,
+   "category": "Other",
+   "name": "Vieux Carré",
+   "image_url": "http://www.1001cocktails.com/images/vieuxcarre.jpg",
+   "ingredients": "1 oz. Rye Whiskey |1 oz. Cognac |.75 oz. Italian Rosso Vermouth |.25 oz. Benedictine |3 dashes Peychaud's Bitters |2 dashes Angostura Bitters",
+   "instructions": "Stir/Strain/Large rock/Lemon twist"
+ },
+ {
+   "cocktail_id": 145,
+   "category": "Other",
+   "name": "White Russian",
+   "image_url": "http://www.1001cocktails.com/images/whiterussian.jpg",
+   "ingredients": "2 oz. Vodka |.75 oz. Kahlua",
+   "instructions": "Stir/Rock/Top with hand-whipped heavy cream/Grated cinnamon"
+ },
+ {
+   "cocktail_id": 146,
+   "category": "Other",
+   "name": "Bay Breeze",
+   "image_url": "http://www.completecocktails.com/img/d/l/BayBreeze.png",
+   "ingredients": "1.5 oz. Vodka |Top w/ cranberry & pineapple",
+   "instructions": "Lime wedge"
+ },
+ {
+   "cocktail_id": 147,
+   "category": "Other",
+   "name": "Cape Codder",
+   "image_url": "http://www.1001cocktails.com/images/cape_codder.jpg",
+   "ingredients": "1.5 oz. Vodka |Top w/ cranberry",
+   "instructions": "Lime wedge"
+ },
+ {
+   "cocktail_id": 148,
+   "category": "Other",
+   "name": "Cuba Libre",
+   "image_url": "http://www.1001cocktails.com/images/cuba-libre-21.jpg",
+   "ingredients": "1.5 oz. White Rum |.25 oz. Fresh Lime |Top w/ Coca Cola",
+   "instructions": "Lime wedge"
+ },
+ {
+   "cocktail_id": 149,
+   "category": "Other",
+   "name": "Fuzzy Navel",
+   "image_url": "https://mmac-geckowebdevelopm1.netdna-ssl.com/images/cocktails/8387/300_367_navel.jpg",
+   "ingredients": "1.5 oz. Peach Liqueur |Top w/ OJ",
+   "instructions": "Orange half-wheel"
+ },
+ {
+   "cocktail_id": 150,
+   "category": "Other",
+   "name": "Greyhound",
+   "image_url": "http://www.1001cocktails.com/images/greyhound.jpg",
+   "ingredients": "1.5 oz. Vodka |Top w/ Grapefruit",
+   "instructions": "Grapefruit half-wheel"
+ },
+ {
+   "cocktail_id": 151,
+   "category": "Other",
+   "name": "Highball",
+   "image_url": "http://www.1001cocktails.com/images/whiskyhigh.jpg",
+   "ingredients": "1.5 oz. Blended Scotch Whiskey |Top w/ Ginger Ale",
+   "instructions": "Lime wedge"
+ },
+ {
+   "cocktail_id": 152,
+   "category": "Other",
+   "name": "Madras",
+   "image_url": "http://www.1001cocktails.com/images/madras.jpg",
+   "ingredients": "1.5 oz. Vodka |Top w/ OJ & Cranberry",
+   "instructions": "Lime wedge"
+ },
+ {
+   "cocktail_id": 153,
+   "category": "Other",
+   "name": "Presbyterian",
+   "image_url": "https://cdn.liquor.com/wp-content/uploads/2013/05/presbyterian-hardwater-version.jpg",
+   "ingredients": "1/5 oz. Blended Scotch Whiskey |Top w/ Ginger ale & club soda",
+   "instructions": "Lime Wedge"
+ },
+ {
+   "cocktail_id": 154,
+   "category": "Other",
+   "name": "Screwdriver",
+   "image_url": "http://www.1001cocktails.com/images/screwdriver.jpg",
+   "ingredients": "1.5 oz. Vodka |Top w/ OJ",
+   "instructions": "Orange half-wheel"
+ },
+ {
+   "cocktail_id": 155,
+   "category": "Other",
+   "name": "Sea Breeze",
+   "image_url": "http://www.1001cocktails.com/images/sea-breeze.jpg",
+   "ingredients": "1.5 oz. Vodka |Top w/ Cranberry & Grapefruit",
+   "instructions": "Lime wedge"
+ },
+ {
+   "cocktail_id": 156,
+   "category": "Other",
+   "name": "Seven & Seven",
+   "image_url": "https://cdn.liquor.com/wp-content/uploads/2013/04/fuzzynavel.jpg",
+   "ingredients": "1.5 oz. Canadian Whiskey |Top w/ 7-Up or Sprite",
+   "instructions": "Lemon & lime wedges"
+ },
+ {
+   "cocktail_id": 157,
+   "category": "Other",
+   "name": "Shirley Temple",
+   "image_url": "http://www.1001cocktails.com/images/shirley_temple.jpg",
+   "ingredients": "1 oz. Lemon |1 oz. Lime |1 oz. Grenadine",
+   "instructions": "Shake/strain/club soda/lemon wheel cherry flag"
+ },
+ {
+   "cocktail_id": 158,
+   "category": "Martinis",
+   "name": "Gibson",
+   "image_url": "http://www.1001cocktails.com/images/martinigibson.jpg",
+   "ingredients": "2.5 oz. London Dry Gin |1 oz. Dry Vermouth",
+   "instructions": "Stir/Strain/Coupe/Garnish with pickled onion"
+ },
+ {
+   "cocktail_id": 159,
+   "category": "Martinis",
+   "name": "Gin Martini",
+   "image_url": "http://www.1001cocktails.com/images/dry-martini2.jpg",
+   "ingredients": "2.5 oz. London Dry Gin |1 oz. Dry Vermouth |1 dash Orange Bitters",
+   "instructions": "Stir/Strain/Coupe/Garnish with Olive or Lemon twist."
+ },
+ {
+   "cocktail_id": 160,
+   "category": "Martinis",
+   "name": "Dry Gin Martini",
+   "image_url": "http://www.1001cocktails.com/images/dry-martini2.jpg",
+   "ingredients": "3 oz. London Dry Gin |.5 oz. Dry Vermouth |1 dash Orange Bitters",
+   "instructions": "Stir/Strain/Coupe/Garnish with Olive or Lemon twist."
+ },
+ {
+   "cocktail_id": 161,
+   "category": "Martinis",
+   "name": "Dirty Gin Martini",
+   "image_url": "http://www.1001cocktails.com/images/dry-martini2.jpg",
+   "ingredients": "3 oz. London Dry Gin |.25 oz. Dry Vermouth |.25 oz. Olive Brine",
+   "instructions": "Stir/Strain/Coupe/Olives"
+ },
+ {
+   "cocktail_id": 162,
+   "category": "Martinis",
+   "name": "Vodka Martini",
+   "image_url": "http://www.1001cocktails.com/images/vodkamartini.jpg",
+   "ingredients": "3 oz. Vodka |.5 oz. Dry Vermouth |Stir/Strain/Coupe/Garnish with Olive or Lemon Twist",
+   "instructions": ""
+ },
+ {
+   "cocktail_id": 163,
+   "category": "Martinis",
+   "name": "Dry Vodka Martini",
+   "image_url": "http://www.1001cocktails.com/images/vodkamartini.jpg",
+   "ingredients": "3 oz. Vodka |Stir/Strain/Coupe/Garnish with Olive or Lemon Twist",
+   "instructions": ""
+ },
+ {
+   "cocktail_id": 164,
+   "category": "Martinis",
+   "name": "Dirty Vodka Martini",
+   "image_url": "http://www.1001cocktails.com/images/vodkamartini.jpg",
+   "ingredients": "3 oz. Vodka |.5 oz. Olive Brine |Stir/Strain/Coupe/Olives",
+   "instructions": ""
+ },
+ {
+   "cocktail_id": 165,
+   "category": "Martinis",
+   "name": "Apple Martini",
+   "image_url": "http://www.1001cocktails.com/imagesupload/edab_433.jpg",
+   "ingredients": "1.5 oz. Vodka |1.5 oz. Fresh-pressed Apple Juice |.5 oz. Honey Syrup (2:1) |.5 oz. Fresh Lemon |Barspoon Cinnamon Syrup",
+   "instructions": "Shake/Fine strain/Coupe/Apple slices"
+ },
+ {
+   "cocktail_id": 166,
+   "category": "Martinis",
+   "name": "Chocolate Martini",
+   "image_url": "http://www.1001cocktails.com/images/chocolatemartini.jpg",
+   "ingredients": "1.5 oz. Vodka |1 oz. Dark Crème de Cacao |.75 oz. Heavy Cream",
+   "instructions": "Shake/Fine strain/Coupe/Nutmeg"
+ },
+ {
+   "cocktail_id": 167,
+   "category": "Martinis",
+   "name": "Espresso Martini",
+   "image_url": "http://shake-that.com/wp-content/uploads/2015/07/Espresso-martini.jpg",
+   "ingredients": "2 oz. Vodka |.75 oz. Chilled Espresso |.5 oz. Kahlua |Barspoon Crème de Cacao",
+   "instructions": "Shake/Fine strain/Coupe/3 espresso beans"
+ },
+ {
+   "cocktail_id": 168,
+   "category": "Martinis",
+   "name": "French Martini",
+   "image_url": "http://www.1001cocktails.com/images/french-martini-756.jpg",
+   "ingredients": "1.75 oz. Vodka |1 oz. Fresh Pineapple |<.5 oz. Crème de Cassis",
+   "instructions": "Shake/Fine strain/Coupe"
+ },
+ {
+   "cocktail_id": 169,
+   "category": "Martinis",
+   "name": "Grapefruit Martini",
+   "image_url": "https://www.garnishwithlemon.com/wp-content/uploads/2017/02/Ruby-Red-Grapefruit-Martini-1-of-2-674x1000.jpg",
+   "ingredients": "1.5 oz. Vodka |1 oz. Fresh Grapefruit |.25 oz. Fresh Lime |.25 oz. Honey Syrup (2:1) |>.25 oz. Lemon Oleo",
+   "instructions": "Shake/Fine strain/Coupe/Grapefruit twist"
+ },
+ {
+   "cocktail_id": 170,
+   "category": "Martinis",
+   "name": "Lychee Martini",
+   "image_url": "http://www.1001cocktails.com/images/lychee-martini-4880.jpg",
+   "ingredients": "1.5 oz. Vodka |.5 oz. St. Germain Elderflower Liqueur |.75 oz. Fresh Lemon |.5 oz. Honey Syrup (2:1) |Barspoon Bianco Vermouth |.5 dash Orange Bitters",
+   "instructions": "Shake/Fine strain/Coupe"
+ },
+ {
+   "cocktail_id": 171,
+   "category": "Shots",
+   "name": "B-52",
+   "image_url": "http://www.1001cocktails.com/images/b-52-1802.jpg",
+   "ingredients": ".3 Kahlua |.3 Bailey's |.3 Grand Marnier",
+   "instructions": "Layer w/ bar spoon. Set on fire."
+ },
+ {
+   "cocktail_id": 172,
+   "category": "Shots",
+   "name": "Blow Job",
+   "image_url": "http://www.1001cocktails.com/images/blowjob3.jpg",
+   "ingredients": "1/2 Kahlua |1/2 Bailey's",
+   "instructions": "Top w/ whipped cream"
+ },
+ {
+   "cocktail_id": 173,
+   "category": "Shots",
+   "name": "Irish Car Bomb",
+   "image_url": "https://cdn.liquor.com/wp-content/uploads/2009/11/25144606/the-irish-car-bomb.jpg",
+   "ingredients": "1/2 Bailey's |1/2 Jameson",
+   "instructions": "Drop into 1/2 glass of Guinness"
+ },
+ {
+   "cocktail_id": 174,
+   "category": "Shots",
+   "name": "Kamikaze",
+   "image_url": "http://www.1001cocktails.com/images/kamikaz.jpg",
+   "ingredients": ".3 Vodka |.3 Cointreau |.3 Lime",
+   "instructions": ""
+ },
+ {
+   "cocktail_id": 175,
+   "category": "Shots",
+   "name": "Lemon Drop",
+   "image_url": "http://www.1001cocktails.com/images/lemondrop.jpg",
+   "ingredients": "1 oz. Vodka |.5 oz. Fresh Lemon |.5 oz. Simple Syrup (1:1)",
+   "instructions": "Shake/Fine strain/sugar half-rimmed Nick & Nora/Lemon twist expressed & discarded"
+ },
+ {
+   "cocktail_id": 176,
+   "category": "Shots",
+   "name": "Melon Ball",
+   "image_url": "https://vignette.wikia.nocookie.net/cocktails/images/6/68/Pulseflicks-midori-tropical-melon-ball.jpg/revision/latest?cb=20130521162828",
+   "ingredients": ".3 Midori |.3 Vodka |.3 Pineapple",
+   "instructions": ""
+ },
+ {
+   "cocktail_id": 177,
+   "category": "Shots",
+   "name": "Mind Eraser",
+   "image_url": "http://az659704.vo.msecnd.net/v1/image/c_lpad,w_1500,h_1500/v1400604581/cocktail_mind_eraser-1.png",
+   "ingredients": ".3 Kahlua |.3 Vodka |.3 Club Soda",
+   "instructions": "In that order. Serve with a straw."
+ },
+ {
+   "cocktail_id": 178,
+   "category": "Shots",
+   "name": "Sex on the Beach",
+   "image_url": "http://www.1001cocktails.com/imagesupload/ono_565.jpg",
+   "ingredients": ".25 Vodka |.25 Midori |.25 Pineapple |.25 Raspberry Liqueur",
+   "instructions": ""
+ }
+]

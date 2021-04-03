@@ -1,0 +1,1805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+  <meta charset="utf-8" />
+  <title>CryptoCocktailBar</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta property="og:title" content="CryptoCocktailBar" />
+  <meta property="og:description" content="Buy Cocktail NFTs On The Blockchain!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://www.cryptococktailbar.com" />
+  <meta property="og:image" content="http://www.cryptococktailbar.com/icon.png" />
+  <meta property="og:site_name" content="CryptoCocktailBar" />
+  <meta name="description" content="Buy Cocktails On The Blockchain!">
+
+  <link id="favicon" rel="icon" type="image/png" href="icon.png" >
+
+  <!-- Prefetch DNS for external assets -->
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link rel="dns-prefetch" href="https://www.google-analytics.com">
+  <link rel="dns-prefetch" href="https://unpkg.com">
+
+  <link rel="stylesheet" href="./prism.css" />
+  <link rel="stylesheet" href="./normalize.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./shuffle-styles.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css" crossorigin="anonymous"/>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/core-js/client/shim.min.js"></script>
+   <script src="./web3.min.js"></script>
+
+
+  <script src="./prism.js"></script>
+  <script src="./shuffle.js"></script>
+  <script src="./site-nav.js"></script>
+  <script src="./homepage.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+         if (typeof web3 !== 'undefined') {
+            //console.log(web3.currentProvider)
+            web3 = new Web3(web3.currentProvider);
+        } else {
+            // set the provider you want from Web3.providers
+            //console.log("calling localhost")
+            web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:3000"));
+        }
+        
+        var thisAccount = web3.eth.accounts[0];
+        //console.log(thisAccount)
+        web3.eth.defaultAccount = web3.eth.accounts[0];
+
+        var ccContract = web3.eth.contract([
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_itemId",
+                "type": "uint256"
+            }
+        ],
+        "name": "tokenExists",
+        "outputs": [
+            {
+                "name": "_exists",
+                "type": "bool"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_amount",
+                "type": "uint256"
+            }
+        ],
+        "name": "withdrawAmount",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "name",
+        "outputs": [
+            {
+                "name": "_name",
+                "type": "string"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "pure",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_to",
+                "type": "address"
+            },
+            {
+                "name": "_itemId",
+                "type": "uint256"
+            }
+        ],
+        "name": "approve",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "implementsERC721",
+        "outputs": [
+            {
+                "name": "_implements",
+                "type": "bool"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_owner",
+                "type": "address"
+            }
+        ],
+        "name": "setOwner",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_admin",
+                "type": "address"
+            }
+        ],
+        "name": "removeAdmin",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "totalSupply",
+        "outputs": [
+            {
+                "name": "_totalSupply",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_itemRegistry",
+                "type": "address"
+            }
+        ],
+        "name": "setItemRegistry",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_from",
+                "type": "address"
+            },
+            {
+                "name": "_to",
+                "type": "address"
+            },
+            {
+                "name": "_itemId",
+                "type": "uint256"
+            }
+        ],
+        "name": "transferFrom",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_admin",
+                "type": "address"
+            }
+        ],
+        "name": "isAdmin",
+        "outputs": [
+            {
+                "name": "_isAdmin",
+                "type": "bool"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_itemId",
+                "type": "uint256"
+            }
+        ],
+        "name": "approvedFor",
+        "outputs": [
+            {
+                "name": "_approved",
+                "type": "address"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_itemId",
+                "type": "uint256"
+            }
+        ],
+        "name": "allOf",
+        "outputs": [
+            {
+                "name": "_owner",
+                "type": "address"
+            },
+            {
+                "name": "_startingPrice",
+                "type": "uint256"
+            },
+            {
+                "name": "_price",
+                "type": "uint256"
+            },
+            {
+                "name": "_nextPrice",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_itemId",
+                "type": "uint256"
+            }
+        ],
+        "name": "listItemFromRegistry",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "itemsPriceAndOwnerList",
+        "outputs": [
+            {
+                "name": "_itemsPrices",
+                "type": "uint256[]"
+            },
+            {
+                "name": "_itemsOwners",
+                "type": "address[]"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_itemId",
+                "type": "uint256"
+            },
+            {
+                "name": "_price",
+                "type": "uint256"
+            },
+            {
+                "name": "_owner",
+                "type": "address"
+            }
+        ],
+        "name": "listItem",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_from",
+                "type": "uint256"
+            },
+            {
+                "name": "_take",
+                "type": "uint256"
+            }
+        ],
+        "name": "itemsForSaleLimit",
+        "outputs": [
+            {
+                "name": "_items",
+                "type": "uint256[]"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_owner",
+                "type": "address"
+            }
+        ],
+        "name": "tokensOf",
+        "outputs": [
+            {
+                "name": "_tokenIds",
+                "type": "uint256[]"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_itemId",
+                "type": "uint256"
+            }
+        ],
+        "name": "nextPriceOf",
+        "outputs": [
+            {
+                "name": "_nextPrice",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_itemId",
+                "type": "uint256"
+            }
+        ],
+        "name": "ownerOf",
+        "outputs": [
+            {
+                "name": "_owner",
+                "type": "address"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_price",
+                "type": "uint256"
+            }
+        ],
+        "name": "calculateDevCut",
+        "outputs": [
+            {
+                "name": "_devCut",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_admin",
+                "type": "address"
+            }
+        ],
+        "name": "addAdmin",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_owner",
+                "type": "address"
+            }
+        ],
+        "name": "balanceOf",
+        "outputs": [
+            {
+                "name": "_balance",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [],
+        "name": "enableERC721",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [],
+        "name": "withdrawAll",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_itemIds",
+                "type": "uint256[]"
+            }
+        ],
+        "name": "populateFromItemRegistry",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "symbol",
+        "outputs": [
+            {
+                "name": "_symbol",
+                "type": "string"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "pure",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "itemsPriceAndOwnerAndNextPriceList",
+        "outputs": [
+            {
+                "name": "_itemsPrices",
+                "type": "uint256[]"
+            },
+            {
+                "name": "_itemsOwners",
+                "type": "address[]"
+            },
+            {
+                "name": "_nextPrices",
+                "type": "uint256[]"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_to",
+                "type": "address"
+            },
+            {
+                "name": "_itemId",
+                "type": "uint256"
+            }
+        ],
+        "name": "transfer",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_itemId",
+                "type": "uint256"
+            }
+        ],
+        "name": "startingPriceOf",
+        "outputs": [
+            {
+                "name": "_startingPrice",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_itemId",
+                "type": "uint256"
+            }
+        ],
+        "name": "priceOf",
+        "outputs": [
+            {
+                "name": "_price",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_itemIds",
+                "type": "uint256[]"
+            },
+            {
+                "name": "_price",
+                "type": "uint256"
+            },
+            {
+                "name": "_owner",
+                "type": "address"
+            }
+        ],
+        "name": "listMultipleItems",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_itemId",
+                "type": "uint256"
+            }
+        ],
+        "name": "buy",
+        "outputs": [],
+        "payable": true,
+        "stateMutability": "payable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_price",
+                "type": "uint256"
+            }
+        ],
+        "name": "calculateNextPrice",
+        "outputs": [
+            {
+                "name": "_nextPrice",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "itemsPriceList",
+        "outputs": [
+            {
+                "name": "_itemsPrices",
+                "type": "uint256[]"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "name": "_itemId",
+                "type": "uint256"
+            },
+            {
+                "indexed": true,
+                "name": "_owner",
+                "type": "address"
+            },
+            {
+                "indexed": false,
+                "name": "_price",
+                "type": "uint256"
+            }
+        ],
+        "name": "Bought",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "name": "_itemId",
+                "type": "uint256"
+            },
+            {
+                "indexed": true,
+                "name": "_owner",
+                "type": "address"
+            },
+            {
+                "indexed": false,
+                "name": "_price",
+                "type": "uint256"
+            }
+        ],
+        "name": "Sold",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "name": "_from",
+                "type": "address"
+            },
+            {
+                "indexed": true,
+                "name": "_to",
+                "type": "address"
+            },
+            {
+                "indexed": false,
+                "name": "_tokenId",
+                "type": "uint256"
+            }
+        ],
+        "name": "Transfer",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "name": "_owner",
+                "type": "address"
+            },
+            {
+                "indexed": true,
+                "name": "_approved",
+                "type": "address"
+            },
+            {
+                "indexed": false,
+                "name": "_tokenId",
+                "type": "uint256"
+            }
+        ],
+        "name": "Approval",
+        "type": "event"
+    }
+]);
+
+        var CC = ccContract.at("0xFc9350C3487bACFCEF104c024Cc98cb0b2ADBDd0");
+        //console.log(CC);
+
+        //NICK contract setup
+        var nickContract = web3.eth.contract([
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_nick",
+                "type": "string"
+            }
+        ],
+        "name": "set",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "name": "_nick",
+                "type": "string"
+            },
+            {
+                "indexed": true,
+                "name": "_owner",
+                "type": "address"
+            }
+        ],
+        "name": "Set",
+        "type": "event"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "source",
+                "type": "string"
+            }
+        ],
+        "name": "stringToBytes32",
+        "outputs": [
+            {
+                "name": "result",
+                "type": "bytes32"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+    },
+    {
+        "constant": false,
+        "inputs": [],
+        "name": "unset",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "name": "_nick",
+                "type": "string"
+            },
+            {
+                "indexed": true,
+                "name": "_owner",
+                "type": "address"
+            }
+        ],
+        "name": "Unset",
+        "type": "event"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_owner",
+                "type": "address"
+            }
+        ],
+        "name": "nickOf",
+        "outputs": [
+            {
+                "name": "_nick",
+                "type": "string"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_owner",
+                "type": "address[]"
+            }
+        ],
+        "name": "nicksOf",
+        "outputs": [
+            {
+                "name": "_nicks",
+                "type": "bytes32[]"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_nick",
+                "type": "string"
+            }
+        ],
+        "name": "ownerOf",
+        "outputs": [
+            {
+                "name": "_owner",
+                "type": "address"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    }
+]);
+var NC = nickContract.at("0xac84f720ce761d6c498f881bb5de9e7bc7708a6c");
+    </script>
+  <style type="text/css">
+    .bg-primary {
+        background: linear-gradient(to right,#0e1111, #0f2222);
+    }
+    .bg-bar {
+        background-image: url("beverages.jpg");
+    }
+    fieldset {
+      border: 0px solid silver;
+      width:100%;
+    }
+
+    fieldset legend {
+        border: 0px solid silver;
+        margin-left: 0px;
+      width:100%;
+    }
+
+    fieldset div {
+        border: 0px dotted silver;
+        margin: 0px;
+      width:100%;
+    }
+    .img_cocktail {
+    background-color: #000;
+    }
+.btn-separator:after {
+    content: ' ';
+    display: block;
+    float: left;
+    background: #ADADAD;
+    margin: 0 10px;
+    height: 34px;
+    width: 1px;
+}
+#wrapper {
+  text-align: center;
+}
+#yourdiv {
+  display: inline-block;
+}
+/* Overrides list-group-item from Bootstrap */ 
+.list-group-item {
+    background: linear-gradient(to right,#0e1111, #0f2222);
+    padding: 1px 1px
+}
+.splash { 
+    /* The image used */
+    background-image: url("splash_bg3.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.splash-text {
+    background:rgba(176,196,222,0.8);
+    background:rgba(0,0,0,0.8);
+}
+
+
+.blink_text {
+
+animation:1s blinker linear infinite;
+-webkit-animation:1s blinker linear infinite;
+-moz-animation:1s blinker linear infinite;
+
+ color: red;
+}
+
+@-moz-keyframes blinker {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+ }
+
+@-webkit-keyframes blinker {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+ }
+
+@keyframes blinker {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+ }
+
+
+  </style>
+
+<script type="text/javascript">
+function sortByKey(array, key) {
+    return array.sort(function(a, b) {
+        var x = a[key]; 
+        var y = b[key];
+        return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+    });
+}
+</script>
+<script type="text/javascript">
+window.scrollTo(0,0);
+var otherbar = "";
+var othercocktail = "";
+var cocktailsArray = [];
+var currentPrices = {};
+var addressCounterArray = [];
+var account_set = [];
+var nickname_associative_array = [];
+var account_owned_units = {};
+var account_owned_units_total_value = {};
+var i = 0;
+var nextPrices = [];
+var cocktail_ids = [];
+var total_value = 0.0;
+var current_cocktail_id = -1;
+var hiscore_list = [];
+
+function dataUpdateFromBlockchain(switchToMyBar = false){
+    window.scrollTo(0,0);
+    CC.itemsPriceAndOwnerAndNextPriceList(function(e, contract){
+        //console.log("CAME BACK WITH PRICES!!!")
+        nextPrices = []
+        account_set = []
+        nickname_associative_array = []
+        account_owned_units = []
+        cocktail_ids.forEach(function(element) {
+            //console.log()
+            var price = parseFloat(web3.fromWei(contract[0][element].toNumber()));
+            var nextPrice = parseFloat(web3.fromWei(contract[2][element].toNumber()));
+            nextPrices[element]=nextPrice;
+            var ownerAddr = contract[1][element];
+            total_value += price;
+            $("#totalValue").html(total_value)
+            currentPrices[element]=price;
+            $("#total_value").html((total_value).toFixed(5)+" ETH")
+            $("#price_"+element).html((price).toFixed(5)+" ETH")
+            $("#figure_"+element).attr("data-price",price+"")
+            $("#owner_"+element).html(truncate(ownerAddr));
+            var data_groups = $("#figure_"+element).attr("data-groups");
+            var data_groups = data_groups.substring(0, data_groups.length - 1) + ',"' + ownerAddr+'","' + ownerAddr.substring(7,12)+'"]';
+            $("#figure_"+element).attr("data-groups",data_groups)
+            if (!account_set.includes(ownerAddr)) { 
+                //console.log(account_set)
+                account_set.push(ownerAddr);
+                account_owned_units[ownerAddr] = [element]
+                account_owned_units_total_value[ownerAddr] = price
+            } else {
+                account_owned_units[ownerAddr].push(element)
+                account_owned_units_total_value[ownerAddr] += price
+            }
+            window.scrollTo(0,0);
+        });
+        if(switchToMyBar){
+            showBarOwner();
+            $("#my_bar_filter").click()
+        } else {
+            //toSplash();
+        }
+        NC.nicksOf(account_set,function(e,contract){
+            hiscore_list = []
+            for(var i = 0;i < account_set.length;i++){
+                var current_account = account_set[i];
+                var current_account_nick = web3.toAscii(contract[i])
+                if(current_account_nick.replace(/\W/g, '').length < 1){
+                    hiscore_list.push({"name":current_account, "value":account_owned_units_total_value[current_account],"address":current_account+""})
+                    nickname_associative_array[current_account] = current_account_nick;
+                    continue // because we won't replace any account address with nicks
+                } else {
+                    nickname_associative_array[current_account] = current_account_nick;
+                    hiscore_list.push({"name":current_account_nick, "value":account_owned_units_total_value[current_account],"address":current_account+""})
+                }
+                var items_of_this_account = account_owned_units[current_account];
+                for(var j = 0;j<items_of_this_account.length;j++){
+                    $("#owner_"+items_of_this_account[j]).html(truncate(current_account_nick));
+                }
+            }
+            //now that we have all accounts values we can update the hiscore list
+            hiscore_list.sort(function(a, b) {
+                return ((a.value > b.value) ? -1 : ((a.name == b.name) ? 0 : 1));
+            });
+
+            for (var i = 0; i<Math.min(hiscore_list.length,5); i++) {
+                //console.log(hiscore_list[i].address)
+                $("#hiscore_"+i).html((i+1)+'. <a class="bar-link" onclick="callMe('+i+');">'+hiscore_list[i].name+'</a> <span class="badge badge-primary badge-pill">'+hiscore_list[i].value.toFixed(5)+'</span>')
+            }
+            if(otherbar != null){
+            if(otherbar.length > 2){
+                $("#other_bar_filter").click()
+            }}
+
+            if(othercocktail != null){
+                console.log("from splash now!")
+                $("#cocktail_buy_"+othercocktail).click()
+                //$("  ").val(othercocktail).trigger('change');
+                //document.getElementById("filters-search-input").value = othercocktail;
+               // $("#filters-search-input").trigger("change");
+            }
+            //$('.bar-link').click(function(e) {console.log($(e.target).text())});
+        });
+    });
+};  
+
+function callMe(i){
+    var address_id = (hiscore_list[i].address + "").substring(7,12)
+    console.log(address_id);
+
+    $("#other_bar_filter").html(address_id)
+    $("#other_bar_filter").attr("data-group",address_id)
+    $("#other_bar_filter").click()
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    hideBarOwner();
+    $("#demo").hide();
+    $("#footer").hide();
+    $("#other_bar_filter").hide();
+    otherbar = findGetParameter("bar")
+    othercocktail = findGetParameter("cocktail")
+    console.log(otherbar)
+    console.log(othercocktail)
+    if(otherbar != null){
+        if(otherbar.length > 2){
+            //then go to that specific bar
+            $("#other_bar_filter").html(otherbar)
+            $("#other_bar_filter").attr("data-group",otherbar)
+            $("#other_bar_filter").show()
+            fromSplash();
+        }
+    }
+    if(othercocktail != null){
+        fromSplash();
+        console.log("from splash now!")
+    }
+});
+
+function findGetParameter(parameterName) {
+    var result = null,
+        tmp = [];
+    location.search
+        .substr(1)
+        .split("&")
+        .forEach(function (item) {
+          tmp = item.split("=");
+          if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+        });
+    return result;
+}
+
+function showBarOwner(filAccount = thisAccount){
+    //array of addresses that own at least one cocktail: account_set
+    //associative array address -> nickname: nickname_associative_array
+    //owner address: thisAccount
+    console.log(filAccount)
+    if(filAccount.length>10){
+        var nick = nickname_associative_array[filAccount]
+        var url = "www.cryptococktailbar.com?bar="+filAccount.substring(7,12)
+        var uri = encodeURI(url);
+        var tweet = "https://twitter.com/intent/tweet?text=Get%20a%20drink%20at%20my%20bar%20at%20"+uri+"%20%23crypto%20%23blockchain%20%23dapps%20%23ethereum%20%23cocktails%20%23cocktailbar%20%23bartender%20%23cryptococktailbar"
+        $("#my-bar-url").attr("value",url)
+        $("#twitter-share-button").attr("href",tweet)
+        if (nick.replace(/\W/g, '').length < 1){
+            $("#bar_owner_name").html(filAccount)
+        } else {
+            $("#bar_owner_name").html(nick)
+        }
+    $("#barOwner").show();
+    } else {
+        //we first need to find the address corresponding to otherbar
+        /*
+        for(var i = 0;i < account_set.length;i++){
+            if (account_set[i].substring(7,12) == filAccount){
+                filAccount = account_set[i]
+                break;
+            }
+        }
+        var nick = nickname_associative_array[filAccount]
+        $("#my-bar-url").attr("value",url)
+        $("#twitter-share-button").attr("href",tweet)
+        if (nick.replace(/\W/g, '').length < 1){
+            $("#bar_owner_name").html(filAccount)
+        } else {
+            $("#bar_owner_name").html(nick)
+        }
+        */
+    }
+}
+
+function hideBarOwner(){
+    $("#barOwner").hide();
+}
+
+//document.addEventListener('DOMContentLoaded', function () {
+function firstLoadGrid() {
+    window.scrollTo(0,0);
+      $.getJSON( "cocktails_dataset_ignore_license.json", function( data ) {
+      $.each( data, function( key, val ) {
+        cocktail_ids.push(parseInt(val['cocktail_id']));
+        cocktailsArray[val["name"]] = val;
+        //console.log(val['category']);
+        var category = val['category'].replace("/", "");
+        var category = category.replace("&", "");
+        var category = category.replace(" ", "");
+        var html = ""
+        html += '<figure class="col-3@xs col-3@sm col-2@md picture-item shuffle-item shuffle-item--visible" data-groups="[&quot;'+category+'&quot;]" data-date-created="2018-01-28" data-title="'+val["name"]+'" data-price="" id="figure_'+val['cocktail_id']+'" style="position: absolute; top: 0px; left: 0px; visibility: visible; will-change: transform; opacity: 1; transition-duration: 250ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: transform, opacity;height:auto;right:0px;padding-right:0px;padding-left:0px;">'
+        html += '<div class="picture-item__inner">'
+        html += '<div class="view overlay toggleModal" name="'+val["name"]+'">'
+        html += '<div class="aspect aspect--9x16">'
+        html += '<div class="aspect__inner">'
+        html += '<img src="./'+val['cocktail_id']+'.png" class="img_cocktail" style="border: none;">'
+        html += '</div>'
+        html += '</div>'
+        html += '<div class="mask flex-center rgba-blue-grey-strong"><p class="white-text">Start Buying '+val['name']+'!</p></div></div>'
+        html += '<div class="picture-item__details" style="background-color:#2a2d33;">'
+        html += '<figcaption class="picture-item__title text-primary">'+val['name']+'</figcaption>'
+        html += '</div>'
+        html += '<div class="picture-item__details" style="background-color:#2a2d33;">'
+        html += '<figcaption class="picture-item__title text-info">'+val['category']+'</figcaption>'
+        html += '</div>'
+        html += '<div class="picture-item__details" style="padding-bottom:0em;background-color:#2a2d33;">'
+        html += '<p class="text-light">Owner:</p>'
+        html += '<p class="text-light" id="owner_'+val['cocktail_id']+'">-</p>'
+        html += '</div>'
+        html += '<div class="picture-item__details" style="padding-top:0em;background-color:#2a2d33;">'
+        html += '<p class="text-light" id="price_'+val['cocktail_id']+'">  ETH</p>'
+        html += '<button class="picture-item__tags hidden@xs toggleModal text-light" style="background-color:#5D535E;height:35px;width:65px;text-align:center; vertical-align:middle;font-size:25px;" name="'+val["name"]+'" id="cocktail_buy_'+val['cocktail_id']+'">Buy</button>'
+        html += '</div>'
+        html += '</div>'
+        html += '</figure>'
+        $("#grid").append(html);
+      });
+      $("#grid").append('<div class="col-1@sm col-1@xs my-sizer-element"></div>');
+      window.demo = new Demo(document.getElementById('grid'));
+      $(".toggleModal").click(function(){
+          var key = $(this).attr('name');
+          var val = cocktailsArray[key];
+          current_cocktail_id = parseInt(val['cocktail_id'])
+          $("#modalImg").attr("src",'./'+val['cocktail_id']+'.png');
+          $("#thisprice").html(currentPrices[parseInt(val['cocktail_id'])]+" ETH");
+          $("#nextprice").html(nextPrices[parseInt(val['cocktail_id'])]+" ETH");
+          $("#cocktailNameModal").html(val['name'])
+          $("#categoryModal").html(val['category']);
+          var ingredients = "<ul><li>"+val['ingredients'].split("|").join("</li><li>")+"</li></ul>";
+          $("#ingredientsModal").html(ingredients)
+          $("#instructionsModal").html(val['instructions'])
+          //$("#collapseThree").attr("class","collapse");
+          //$("#collapseOne").attr("class","collapse");
+          //$("#collapseTwo").attr("class","collapse show");
+          $('#exampleModal').modal('show'); 
+      });
+
+    $("#my_bar_filter").click(function(){
+          //var key = $(this).attr('name');
+          showBarOwner();
+      });
+
+    $("#other_bar_filter").click(function(){
+          //var key = $(this).attr('name');
+          if(otherbar){
+          if (otherbar.length > 2)
+              showBarOwner(otherbar);
+            }
+      });
+
+    $(".not-mine").click(function(){
+          //var key = $(this).attr('name');
+          hideBarOwner();
+      });
+
+      $("#buyButton").click(function(){
+        var random_num = Math.floor(Math.random() * 9);
+        CC.buy(current_cocktail_id,{"from": thisAccount,"value":web3.toWei(currentPrices[current_cocktail_id])},function(e,c){
+          if(!e){
+            $('#exampleModal').modal('hide')
+            $("#success_bar").show()
+            window.scrollTo(0,0);
+            dataUpdateFromBlockchain(true);
+          } else {
+            //console.log(e)
+            //console.log(c)
+          }
+        })
+      });
+
+    $("#randomBuyButton").click(function(){
+        var random_num = Math.floor(Math.random() * 178) + 1;
+        CC.buy(random_num,{"from": thisAccount,"value":web3.toWei(currentPrices[random_num])},function(e,c){
+          if(!e){
+            $("#success_bar").show()
+            window.scrollTo(0,0);
+            dataUpdateFromBlockchain(true);
+          } else {
+            //console.log(e)
+            //console.log(c)
+          }
+        })
+      });
+
+    $("#randomBuy3Button").click(function(){
+        var random_num = Math.floor(Math.random() * 178) + 1;
+        CC.buy(random_num,{"from": thisAccount,"value":web3.toWei(currentPrices[random_num])},function(e,c){
+          if(!e){
+            $("#success_bar").show()
+            window.scrollTo(0,0);
+          } else {
+            //console.log(e)
+            //console.log(c)
+          }
+        })
+        var random_num = Math.floor(Math.random() * 178) + 1;
+        CC.buy(random_num,{"from": thisAccount,"value":web3.toWei(currentPrices[random_num])},function(e,c){
+          if(!e){
+            $("#success_bar").show()
+            window.scrollTo(0,0);
+          } else {
+            //console.log(e)
+            //console.log(c)
+          }
+        })
+        var random_num = Math.floor(Math.random() * 178) + 1;
+        CC.buy(random_num,{"from": thisAccount,"value":web3.toWei(currentPrices[random_num])},function(e,c){
+          if(!e){
+            $("#success_bar").show()
+            window.scrollTo(0,0);
+            dataUpdateFromBlockchain(true);
+          } else {
+            //console.log(e)
+            //console.log(c)
+          }
+        })
+      });
+    //toSplash();
+    dataUpdateFromBlockchain();
+        $("#account_address").html(thisAccount)
+        $("#my_bar_filter").attr("data-group",thisAccount);
+        NC.nickOf(thisAccount,function(e,contract){
+            //console.log(thisAccount,contract,"USERNAME")
+            var owner_nick = contract+"";
+            if (owner_nick.length>0){//if owner nick not registered, string will be empty
+              $("#account_nick").html(owner_nick)
+            }
+        })
+        $("#set_name_btn").click(function(){
+          var new_name = $("#new_name").val();
+          //console.log(thisAccount)
+          NC.set(new_name,{"from":thisAccount},function(e,contract){
+            //console.log(e)
+            if(!e){
+              $("#account_nick").html(new_name)
+            }
+          });
+        });
+
+        document.getElementById("my-bar-url").onclick = function() {
+            this.select();
+            document.execCommand('copy');
+        }
+
+
+        $(".dropdown-item").click(function(){
+              var key = $(this).attr('name');
+              var key2 = $(this).attr('id')+"2";
+              //console.log(key)
+              $("#dropdown_filter_btn").html(key)
+              $("#"+key2).click()
+          });
+    });
+//});
+}
+
+function truncate(string){
+   if (string.replace(/\W/g, '').length > 10)
+      return string.substring(0,10)+'...';
+   else
+      return string;
+};
+function fromSplash(){
+    $("#splash").hide();
+    $("#demo").show();
+    $("#footer").show();
+    window.scrollTo(0,0);
+    firstLoadGrid();
+}
+function toSplash(){
+    $("#other_bar_filter").hide()
+    $("#splash").show();
+    $("#demo").hide();
+}
+
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116914754-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-116914754-1');
+</script>
+
+
+</head>
+<body class="home" height="100%" style="background-color:black;">
+
+<!-- start feedback button -->
+<div id="feedbackcontainer" style="position: fixed; right: 0px; bottom: 80px; background: none; height: 120px; width: 40px; font-size: 14px; font-family: Arial, sans-serif;"><a id="feedbackbutton" style="transform: rotate(-90.0deg); background: #1377BC; border-radius: 4px; width: 120px; border: solid 1px #e3e3e3; padding: 5px 5px; color: #FFF; cursor: pointer; float: right; margin-top: 45px; margin-right: -45px" class="mailto" href="mailto:cryptococktailbar@gmail.com">Feedback</a></div>
+
+<section id="splash" class="home center splash">
+  <div class="container center">
+    <hr>
+    <div class="row center">
+      <div class="col-2@sm col-2@md col-2@lg center"></div>
+      <div class="col-8@sm col-8@md col-8@lg center splash-text">
+        <div id="wrapper">
+            <h1 class="text-light yourdiv">Welcome to the worlds first CryptoCocktailBar!</h1>
+        </div>
+      </div>
+      <div class="col-2@sm col-2@md col-2@lg center">
+      </div>
+    </div>
+    <hr/>
+    <!--
+    <div class="row center">
+      <div class="col-2@sm col-2@md col-2@lg center"></div>
+      <div class="col-8@sm col-8@md col-8@lg center splash-text">
+        <div id="wrapper" >
+        <h2 class="blink_text">Over 3864 visitors in the last 24 hours!!</h2>
+        </div>
+      </div>
+      <div class="col-2@sm col-2@md col-2@lg center">
+      </div>
+    </div>
+    <hr/>
+    -->
+    <div class="row center">
+      <div class="col-2@sm col-2@md col-2@lg center"></div>
+      <div class="col-8@sm col-8@md col-8@lg center">
+        <div id="wrapper">    
+            <button class="btn btn--primary btn-lg yourdiv splash-text" type="button" style="font-size:30px;" onclick="fromSplash();">To the Bar!</button>
+        </div>
+      </div>
+      <div class="col-2@sm col-2@md col-2@lg center"></div>
+    </div>
+    <!--
+    <div class="row center">
+      <div class="col-2@sm col-2@md col-2@lg center"></div>
+
+
+      <div class="col-8@sm col-8@md col-8@lg center splash-text">
+        <div id="wrapper">
+        <img class="yourdiv" width="50px" src="logo-white-glass.png"></img>
+        </div>
+      </div>
+      <div class="col-2@sm col-2@md col-2@lg center"></div>
+    </div>
+-->
+    <hr/>
+    <div class="row center">
+      <div class="col-2@sm col-2@md col-2@lg center"></div>
+      <div class="col-8@sm col-8@md col-8@lg center splash-text">
+        <div id="wrapper">
+            <div id="yourdiv" class="text-light">
+                <br>
+                <h4>What is CryptoCocktailbar?</h4>
+                <p>CryptoCocktailbar is an interactive game that lets you buy cocktail NFTs. And as soon as someone else buys your cocktail, you will receive up to 100% tip.</p>
+
+                <h4>How do I buy my cocktails?</h4>
+                <p>Its simple, just select your cocktail of choice and click the 'Buy' button. You can promote your bar by sharing your personal ‘my bar’ link or be one of the TOP 5 Bartenders and get promoted automatically on CryptoCocktailbar.com!</p>
+
+                <h4>Follow us on Twitter for all updates and promotions!</h4>
+                <a class="btn btn-tw" href="https://twitter.com/crypcocktailbar" target="_blank"><i class="fa fa-twitter pr-1"></i>@CryptoCocktailBar</a><br><br>
+            </div>
+        </div>
+      </div>
+      <div class="col-2@sm col-2@md col-2@lg center"></div>
+    </div>
+  </div>
+</section>
+<section id="demo" class="home">
+  <div class="container">
+    <div class="row" id="success_bar" style="display: none;">      
+      <div class="col-12@sm">
+        <div class="alert alert-success">
+          Successfully bought your cocktail! Refresh the page once you see the transaction confirmed on MetaMask.<strong style="display: block; float: right;cursor: pointer;" onclick='$("#success_bar").hide();'>x</strong>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="padding:15px;">
+      <div class="col-4@sm">
+        <!--<h1 class="text-light ">CryptoCocktailBar</h1>-->
+        <img src="logo-white.png"></img>
+      </div>
+      <div class="col-2@sm">
+      </div>
+<div class="col-5@sm col-5@md col-5@lg bg-primary" style="padding:0px;margin-left:15px;">
+<p class="text-light">What do you like to be called?</p>
+<input type="text" class="input-sm" id="new_name"/> <a class="btn--primary text-light" id="set_name_btn" style="padding:0px;border:solid 1px white;height:35px;margin-left:5px;">Set Nickname</a></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-6@sm text-light" style="padding:5px;margin-left:5px">
+        Number of cocktails: 178, Total Value:<span id="totalValue">100</span> ETH
+      </div>
+      <div class="col-5@sm text-light">
+        Name: <span id="account_nick">-</span><br>
+        ETH Address: <span id="account_address">-</span><br>
+      </div>
+    </div>
+  </div>
+   <hr>
+<div class="container center" style="padding-top:1px;">
+    <div class="row">
+        <div class="col-4@sm col-4@md col-4@lg">
+            <div class="filters-group">
+                <legend for="filters-search-input" class="filter-label">Search</legend>
+                <input class="textfield filter__search js-shuffle-search" type="search" id="filters-search-input" placeholder="Search your favorite cocktail.."/>
+            </div>
+        </div>
+        <div class="col-2@sm col-2@md col-2@lg">
+            <legend for="filters-search-input" class="filter-label">Sort</legend>
+            <div class="btn-group">
+                <button class="btn dropdown-toggle btn--primary" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdown_filter_btn">
+                    Categorical
+                </button>
+                <div class="dropdown-menu bg-primary">
+                    <a class="dropdown-item btn--primary" name="Categorical" id="categorical" href="#">Categorical</a>
+                    <a class="dropdown-item btn--primary" name="Alphabetical" id="alphabetical" href="#">Alphabetical</a>
+                    <a class="dropdown-item btn--primary" name="Price High" id="pricehigh" href="#">Price High</a>
+                    <a class="dropdown-item btn--primary" name="Price Low" id="pricelow" href="#">Price Low</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-5@sm col-5@md col-5@lg">
+            <legend class="text-light">Top 5 Bartenders (by value in ETH):</legend>
+            <ul class="list-group text-light" >
+                <li class="list-group-item d-flex justify-content-between align-items-center" id="hiscore_0">
+                    1. <span class="badge badge-primary badge-pill">0</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" id="hiscore_1">
+                    2. 
+                    <span class="badge badge-primary badge-pill">0</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" id="hiscore_2">
+                    3. 
+                    <span class="badge badge-primary badge-pill">0</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" id="hiscore_3">
+                    4. 
+                    <span class="badge badge-primary badge-pill">0</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center" id="hiscore_4">
+                    5.
+                    <span class="badge badge-primary badge-pill">0</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-12@sm filters-group-wrap">
+        <div class="filters-group" style="max-width: 90wv">
+          <legend class="filter-label">Filter</legend>
+          <div class="btn-group btn-group-sm filter-options btn-group-justified">
+            <button class="btn btn--primary not-mine" data-group="all">All</button>
+            <button class="btn btn--primary not-mine" data-group="Gin">Gin</button>
+            <button class="btn btn--primary not-mine" data-group="Vodka">Vodka</button>
+            <button class="btn btn--primary not-mine" data-group="Tequilamezcal">Tequila</button>
+            <button class="btn btn--primary not-mine" data-group="Americanwhiskey">Whiskey</button>
+            <button class="btn btn--primary not-mine" data-group="Scotch">Scotch</button>
+            <button class="btn btn--primary not-mine" data-group="Rum">Rum</button>
+            <button class="btn btn--primary not-mine" data-group="Tiki">Tiki</button>
+            <button class="btn btn--primary not-mine" data-group="Cognacbrandy">Cognac</button>
+            <button class="btn btn--primary not-mine" data-group="Pisco apple brandy">Pisco</button>
+            <button class="btn btn--primary not-mine" data-group="Sherry">Sherry</button>
+            <button class="btn btn--primary not-mine" data-group="Martinis">Martini</button>
+            <button class="btn btn--primary not-mine" data-group="Shots">Shots</button>
+            <span class="btn-separator"></span>
+            <button class="btn btn--primary" id="my_bar_filter" data-group="myown">My Bar</button>
+            <button class="btn btn--primary" id="other_bar_filter" data-group="myown">Referral</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" hidden>
+      <div class="col-12@sm filters-group-wrap">
+        <fieldset >
+          <legend class="filter-label">Sort</legend>
+          <div class="btn-group-vertical btn-group sort-options">
+            <label class="btn active" id="categorical2">
+              <input type="radio" name="sort-value" value="dom" hidden/> Categorical
+            </label>
+            <label class="btn" id="alphabetical2">
+              <input type="radio" name="sort-value" value="title" hidden/> Alphabetical
+            </label>
+            <label class="btn" id="pricehigh2">
+              <input type="radio" name="sort-value" value="price" hidden/> Price High
+            </label>
+            <label class="btn" id="pricelow2">
+              <input type="radio" name="sort-value" value="priceN" hidden/> Price Low
+            </label>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row center">
+      <div class="col-2@sm col-2@md col-2@lg center">
+    </div>
+      <div class="col-8@sm col-8@md col-8@lg center splash-text">
+        <div id="wrapper" >
+            <!--
+            <h3 class="text-light">Choose cocktails from the menu below or let us choose for you.<br>
+                <p>(See your cocktails under the 'My Bar' tab after your transaction is confirmed)</p></h3>
+            -->
+        <button id="randomBuyButton" style="text-align:center; vertical-align:middle;border:solid 1px white;height:35px;" type="button" class="text-light input-sm btn--primary text-light" >Buy 1 randomly selected cocktail</button>
+        <button id="randomBuy3Button" style="text-align:center; vertical-align:middle;border:solid 1px white;height:35px;" type="button" class="text-light input-sm btn--primary text-light">Buy 3 randomly selected cocktails</button>
+        </div><br>
+      </div>
+      <div class="col-2@sm col-2@md col-2@lg center">
+      </div>
+    </div>
+    <!--
+    <div class="row center">
+      <div class="col-2@sm col-2@md col-2@lg center"></div>
+      <div class="col-8@sm col-8@md col-8@lg center splash-text">
+        <div id="wrapper" >
+        <h2 class="blink_text">**Weekend Sale Open** Buy Low Now!!</h2>
+        </div>
+      </div>
+      <div class="col-2@sm col-2@md col-2@lg center">
+      </div>
+    </div>
+    -->
+    <div class="row center" id="barOwner">
+      <div class="col-2@sm col-2@md col-2@lg center">
+    </div>
+      <div class="col-8@sm col-8@md col-8@lg center splash-text">
+        <div id="wrapper">
+            <h3 class="text-light">
+                <p>Bar owner: <span id="bar_owner_name"></span></p>
+            </h3>
+            <span class="text-light">
+                Your unique referral link:
+            </span>
+            <input class="textfield" type="text" id="my-bar-url" value="www.cryptococktailbar.com?bar=test" style="width:270px;" readonly>
+            <span class="text-light">
+                (click to copy)
+            </span><br>
+            <a class="twitter-share-button" id="twitter-share-button"
+              href="https://twitter.com/intent/tweet?text=Come%20to%20my%20bar%20on%20www.cryptococktailbar.com%20%23dapps%20%23cocktails%20%23ethereum%20%23cryptococktailbar"
+              data-size="large">
+                Tweet your bar
+            </a>
+        </div>
+      </div>
+      <div class="col-2@sm col-2@md col-2@lg center">
+      </div>
+    </div>
+  <div id="grid" class="row my-shuffle-container">
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-lg-5">
+            <!--Carousel Wrapper-->
+            <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" id="modalImg" src="" alt="First slide">
+                    </div>
+                </div>
+            </div>
+            <!--/.Carousel Wrapper-->
+          </div>
+          <div class="col-lg-7">
+            <h2 class="h2-responsive product-name">
+              <strong id="cocktailNameModal"></strong>
+            </h2>
+            <h4 class="h4-responsive">
+              <span class="green-text">
+                Price: <strong id="thisprice">1 ETH</strong>
+              </span>
+            </h4>
+            <p>The next price for this cocktail will be <strong id="nextprice">2 ETH</strong>!</p>
+
+            <!--Accordion wrapper-->
+            <div class="accordion" id="accordion" role="tablist" aria-multiselectable="true">
+
+                <!-- Accordion card -->
+                <div class="card">
+
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingOne">
+                        <a class data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h5 class="mb-0">
+                                Category <i class="fa fa-angle-down rotate-icon"></i>
+                            </h5>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion1" >
+                        <div class="card-body" id="categoryModal">
+                        </div>
+                    </div>
+                </div>
+                <!-- Accordion card -->
+
+                <!-- Accordion card -->
+                <div class="card">
+
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingTwo">
+                        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h5 class="mb-0">
+                                Ingredients <i class="fa fa-angle-down rotate-icon"></i>
+                            </h5>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion2" >
+                        <div class="card-body" id="ingredientsModal">
+                        </div>
+                    </div>
+                </div>
+                <!-- Accordion card -->
+
+                <!-- Accordion card -->
+                <div class="card">
+
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingThree">
+                        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <h5 class="mb-0">
+                                Additional Instructions <i class="fa fa-angle-down rotate-icon"></i>
+                            </h5>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseThree" class="collapse show" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion3">
+                        <div class="card-body" id="instructionsModal">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                            non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                        </div>
+                    </div>
+                </div>
+                <!-- Accordion card -->
+            </div>
+            <!--/.Accordion wrapper-->
+
+            <!-- Add to Cart -->
+            <div class="card-body">
+              <div class="text-center">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button class="btn btn-primary" id="buyButton">Buy
+                  <i class="fa fa-cart-plus ml-2" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+            <!-- /.Add to Cart -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                                
+</section>
+
+</main style="padding:0px;">
+<footer id="footer" class="site-footer light-text-dark-box" style="margin:0px;">
+  <div class="container" style="margin-top:0px;padding-top:0px;">
+    <div class="row">
+      <div class="col-6@xs col-12@sm">
+        <p>CrypotCocktailBar, Copyright 2018</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
